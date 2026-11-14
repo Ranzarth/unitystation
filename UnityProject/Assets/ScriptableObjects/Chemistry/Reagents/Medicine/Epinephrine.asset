@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1916b10721f72c927a14093e8210cb3f, type: 3}
   m_Name: Epinephrine
   m_EditorClassIdentifier: 
+  foreverID: Epinephrine
   displayName: Epinephrine
   description: Minor boost to stun resistance. Slowly heals damage if a patient is
     in critical condition, as well as regulating oxygen loss. Overdose causes weakness
@@ -19,4 +20,4 @@ MonoBehaviour:
   color: {r: 0.8235294, g: 1, b: 0.98039216, a: 1}
   state: 1
   heatDensity: 5
-  indexInSingleton: 254
+  indexInSingleton: 295

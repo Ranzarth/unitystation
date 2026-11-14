@@ -5,6 +5,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1973002661359593264, guid: f1436853dd14162fe97690f8e7714773,
@@ -27,10 +28,20 @@ PrefabInstance:
       propertyPath: armoredBodyParts.Array.data[4].armoringBodyPartType
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 2656137655497925204, guid: f1436853dd14162fe97690f8e7714773,
+        type: 3}
+      propertyPath: <Mode>k__BackingField
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2909197017712554513, guid: f1436853dd14162fe97690f8e7714773,
+        type: 3}
+      propertyPath: _assetId
+      value: 3012060510
+      objectReference: {fileID: 0}
     - target: {fileID: 2909197017712554513, guid: f1436853dd14162fe97690f8e7714773,
         type: 3}
       propertyPath: m_AssetId
-      value: 
+      value: d3b0186c86ba4f44d8cf26cb50345ae4
       objectReference: {fileID: 0}
     - target: {fileID: 3011710637427380133, guid: f1436853dd14162fe97690f8e7714773,
         type: 3}
@@ -108,6 +119,16 @@ PrefabInstance:
       propertyPath: initialDescription
       value: A orange jumpskirt worn by criminals while they are locked up.
       objectReference: {fileID: 0}
+    - target: {fileID: 8174322744686822344, guid: f1436853dd14162fe97690f8e7714773,
+        type: 3}
+      propertyPath: parentID
+      value: f1436853dd14162fe97690f8e7714773
+      objectReference: {fileID: 0}
+    - target: {fileID: 8174322744686822344, guid: f1436853dd14162fe97690f8e7714773,
+        type: 3}
+      propertyPath: foreverID
+      value: d3b0186c86ba4f44d8cf26cb50345ae4
+      objectReference: {fileID: 0}
     - target: {fileID: 8193882076658244640, guid: f1436853dd14162fe97690f8e7714773,
         type: 3}
       propertyPath: clothData
@@ -125,7 +146,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8193882076658244640, guid: f1436853dd14162fe97690f8e7714773,
         type: 3}
-      propertyPath: allClothingData.Array.data[0]
+      propertyPath: 'allClothingData.Array.data[0]'
       value: 
       objectReference: {fileID: 11400000, guid: 18620861c18313e43965182194403a10,
         type: 2}
@@ -135,5 +156,14 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 6da9c7a1c9b4e2741b386a17ecc9898e,
         type: 2}
+    - target: {fileID: 8975007657035133986, guid: f1436853dd14162fe97690f8e7714773,
+        type: 3}
+      propertyPath: InitialPresentSpriteSet
+      value: 
+      objectReference: {fileID: 11400000, guid: 6da9c7a1c9b4e2741b386a17ecc9898e,
+        type: 2}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1436853dd14162fe97690f8e7714773, type: 3}

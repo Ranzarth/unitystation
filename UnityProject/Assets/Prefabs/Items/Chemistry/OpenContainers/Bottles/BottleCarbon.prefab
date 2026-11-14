@@ -5,17 +5,23 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2953435279983986442, guid: e29b1fbcef2694d41b261271fecf09dc,
+        type: 3}
+      propertyPath: initialName
+      value: carbon bottle
+      objectReference: {fileID: 0}
     - target: {fileID: 2953435279983986442, guid: e29b1fbcef2694d41b261271fecf09dc,
         type: 3}
       propertyPath: initialDescription
       value: A small bottle of carbon. The base of all known life.
       objectReference: {fileID: 0}
-    - target: {fileID: 2953435279983986442, guid: e29b1fbcef2694d41b261271fecf09dc,
+    - target: {fileID: 3315402667913958684, guid: e29b1fbcef2694d41b261271fecf09dc,
         type: 3}
-      propertyPath: initialName
-      value: carbon bottle
+      propertyPath: m_RootOrder
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3315402667913958684, guid: e29b1fbcef2694d41b261271fecf09dc,
         type: 3}
@@ -34,6 +40,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3315402667913958684, guid: e29b1fbcef2694d41b261271fecf09dc,
         type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3315402667913958684, guid: e29b1fbcef2694d41b261271fecf09dc,
+        type: 3}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
@@ -46,16 +57,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3315402667913958684, guid: e29b1fbcef2694d41b261271fecf09dc,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3315402667913958684, guid: e29b1fbcef2694d41b261271fecf09dc,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3315402667913958684, guid: e29b1fbcef2694d41b261271fecf09dc,
         type: 3}
@@ -79,8 +80,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3424172302466455004, guid: e29b1fbcef2694d41b261271fecf09dc,
         type: 3}
+      propertyPath: _assetId
+      value: 618358391
+      objectReference: {fileID: 0}
+    - target: {fileID: 3424172302466455004, guid: e29b1fbcef2694d41b261271fecf09dc,
+        type: 3}
       propertyPath: m_AssetId
-      value: 
+      value: cee54d42539a37c4a9764082060eba5f
       objectReference: {fileID: 0}
     - target: {fileID: 4332256062918035871, guid: e29b1fbcef2694d41b261271fecf09dc,
         type: 3}
@@ -99,14 +105,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4556275883868545216, guid: e29b1fbcef2694d41b261271fecf09dc,
         type: 3}
-      propertyPath: initialReagentMix.reagents.m_keys.Array.data[0]
+      propertyPath: 'initialReagentMix.reagents.m_keys.Array.data[0]'
       value: 
       objectReference: {fileID: 11400000, guid: 82692ea8680693d459ad97993dbda0f3,
         type: 2}
     - target: {fileID: 4556275883868545216, guid: e29b1fbcef2694d41b261271fecf09dc,
         type: 3}
-      propertyPath: initialReagentMix.reagents.m_values.Array.data[0]
+      propertyPath: 'initialReagentMix.reagents.m_values.Array.data[0]'
       value: 30
       objectReference: {fileID: 0}
+    - target: {fileID: 8551094262549914629, guid: e29b1fbcef2694d41b261271fecf09dc,
+        type: 3}
+      propertyPath: parentID
+      value: e29b1fbcef2694d41b261271fecf09dc
+      objectReference: {fileID: 0}
+    - target: {fileID: 8551094262549914629, guid: e29b1fbcef2694d41b261271fecf09dc,
+        type: 3}
+      propertyPath: foreverID
+      value: cee54d42539a37c4a9764082060eba5f
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e29b1fbcef2694d41b261271fecf09dc, type: 3}

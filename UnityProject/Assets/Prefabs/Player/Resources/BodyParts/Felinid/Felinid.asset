@@ -31,6 +31,7 @@ MonoBehaviour:
     LegLeft:
       Elements:
       - {fileID: 2689983249500970802, guid: 2e6f2ff9beb985749940d242877d84f0, type: 3}
+    allowedToChangeling: 1
     CustomisationSettings:
     - CustomisationGroup: {fileID: 11400000, guid: 8e20bf66bde1f0e40a127928313e7bef,
         type: 2}
@@ -62,7 +63,96 @@ MonoBehaviour:
     - {r: 0.8113208, g: 0.6885384, b: 0.60083663, a: 1}
     - {r: 1, g: 0.82597804, b: 0.6273585, a: 1}
     - {r: 1, g: 0.9593978, b: 0.8254717, a: 1}
-    BloodType: {fileID: 11400000, guid: efcde740e9b85074485bcd68a7a21816, type: 2}
     RootImplantProcedure: {fileID: 11400000, guid: 3de247ed9ca572941975e45430051197,
       type: 2}
     BodyPartsThatShareTheSkinTone: []
+    ClueString: a short brightly coloured hair
+    MeatProduce: {fileID: 7555715936902670365, guid: 51ae3740bde8265468ff6b016221f332,
+      type: 3}
+    SkinProduce: {fileID: 6989094639558291709, guid: 091452380cc20484c9d50501ddce41dd,
+      type: 3}
+    SkinningItemTrait: {fileID: 11400000, guid: 4fd46b7ca0066174bb16d0435eef3baa,
+      type: 2}
+    CanBeEmagged: 0
+    CanBePlayerChosen: 1
+    PreviewSprite: {fileID: 11400000, guid: 639fe71c8579b98479fe7f032db1bb85, type: 2}
+    SystemSettings:
+    - rid: 5920833068371804162
+    - rid: 5920833068371804161
+    - rid: 5920833068371804164
+    - rid: 5920833068371804166
+    StartingMutations: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 4552862688837107714
+      type: {class: DefaultUnityStationHungerCalculation, ns: US13.HealthV2.Living.PolymorphicSystems.Hunger.HungerCalculationMethods,
+        asm: Assets}
+      data:
+        MinutesThresholdForHunger: 5
+        MinutesThresholdForNormal: 10
+    - rid: 5920833068371804161
+      type: {class: ReagentPoolSystem, ns: US13.HealthV2.Living.PolymorphicSystems,
+        asm: Assets}
+      data:
+        Base: {fileID: 0}
+        BloodPool:
+          temperature: 273.15
+          reagents:
+            m_keys: []
+            m_values: []
+          reagentKeys: []
+        StartingBlood: 500
+        NormalBlood: 500
+        bloodReagent: {fileID: 11400000, guid: efcde740e9b85074485bcd68a7a21816, type: 2}
+        PumpingDevices: []
+        TempBloodReservoir:
+          temperature: 273.15
+          reagents:
+            m_keys: []
+            m_values: []
+          reagentKeys: []
+        ReservoirReturnMultiplier: 0.15
+    - rid: 5920833068371804162
+      type: {class: ChemicalMetabolismSystem, ns: US13.HealthV2.Living.PolymorphicSystems,
+        asm: Assets}
+      data:
+        Base: {fileID: 0}
+        InternalMetabolismPerSecond: 1
+        ExternalMetabolismPerSecond: 2
+        MetabolismReactionSets:
+        - {fileID: 11400000, guid: c489a27500b5c5b4392c5f90d1d2fce9, type: 2}
+        ALLMetabolismReactions: []
+        MetabolismComponents: []
+    - rid: 5920833068371804164
+      type: {class: HungerSystem, ns: US13.HealthV2.Living.PolymorphicSystems.Hunger,
+        asm: Assets}
+      data:
+        Base: {fileID: 0}
+        BodyParts: []
+        BodyFats: []
+        NumberOfMinutesBeforeStarving: 30
+        BodyNutriment: {fileID: 11400000, guid: 068bcb587110477558045ad0cfd78237,
+          type: 2}
+        CashedHungerState: 1
+        HungerStatusEffects:
+          NotHungryStatusEffect: {fileID: 0}
+          StravingStatusEffect: {fileID: 11400000, guid: b17bf71c043b2ac4fba4f76a66a3bbfc,
+            type: 2}
+          HungryStatusEffect: {fileID: 11400000, guid: 7fc05290fec5618469255a4d1c1b1b21,
+            type: 2}
+          MalnourishedStatusEffect: {fileID: 11400000, guid: 4ae6e2e66a040d64fab0331017b95c35,
+            type: 2}
+          FatStatusEffect: {fileID: 11400000, guid: c253db45c73d0c44c9bfba25eb68aa71,
+            type: 2}
+        HungerCalculationMethod:
+          rid: 4552862688837107714
+    - rid: 5920833068371804166
+      type: {class: NaturalChemicalReleaseSystem, ns: US13.HealthV2.Living.PolymorphicSystems,
+        asm: Assets}
+      data:
+        Base: {fileID: 0}
+        BodyParts: []
+        TotalToxinGenerationPerSecond: 0.1
+        BodyNaturalToxinReagent: {fileID: 11400000, guid: 6c3a3878e8878972ea633a27c6d0ba12,
+          type: 2}

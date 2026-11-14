@@ -13,8 +13,7 @@ MonoBehaviour:
   m_Name: AwayWorldList
   m_EditorClassIdentifier: 
   AwayWorlds:
-  - AncientTemple
-  - Caverna
-  - Palace
-  - Relicta
-  - DarkJungle
+  - AwaySites/Caverna.json
+  - AwaySites/Relicta.json
+  - AwaySites/Backrooms.json
+  - AwaySites/MysticValley.json

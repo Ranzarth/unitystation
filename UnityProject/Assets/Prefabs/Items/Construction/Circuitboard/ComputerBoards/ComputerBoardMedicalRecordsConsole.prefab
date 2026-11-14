@@ -5,6 +5,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: -4314726431179529581, guid: e7e1f76c9d673354f923f7906532be5b,
@@ -19,6 +20,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 3555577146103994895, guid: 69dfd2945b85d4f42904f8b7a00ade80,
         type: 3}
+    - target: {fileID: 2596862763773197862, guid: e7e1f76c9d673354f923f7906532be5b,
+        type: 3}
+      propertyPath: parentID
+      value: e7e1f76c9d673354f923f7906532be5b
+      objectReference: {fileID: 0}
+    - target: {fileID: 2596862763773197862, guid: e7e1f76c9d673354f923f7906532be5b,
+        type: 3}
+      propertyPath: foreverID
+      value: 7cfa72a1e4d4f22479cff15451d91210
+      objectReference: {fileID: 0}
     - target: {fileID: 3023408758491105740, guid: e7e1f76c9d673354f923f7906532be5b,
         type: 3}
       propertyPath: PresentSpriteSet
@@ -38,6 +49,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8980409829913530175, guid: e7e1f76c9d673354f923f7906532be5b,
         type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8980409829913530175, guid: e7e1f76c9d673354f923f7906532be5b,
+        type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -53,6 +69,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8980409829913530175, guid: e7e1f76c9d673354f923f7906532be5b,
         type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8980409829913530175, guid: e7e1f76c9d673354f923f7906532be5b,
+        type: 3}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
@@ -65,16 +86,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8980409829913530175, guid: e7e1f76c9d673354f923f7906532be5b,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8980409829913530175, guid: e7e1f76c9d673354f923f7906532be5b,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8980409829913530175, guid: e7e1f76c9d673354f923f7906532be5b,
         type: 3}
@@ -109,13 +120,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8984899974262867556, guid: e7e1f76c9d673354f923f7906532be5b,
         type: 3}
-      propertyPath: initialDescription
-      value: A circuit board for a supply console.
+      propertyPath: initialName
+      value: Supply Console (Computer Board)
       objectReference: {fileID: 0}
     - target: {fileID: 8984899974262867556, guid: e7e1f76c9d673354f923f7906532be5b,
         type: 3}
-      propertyPath: initialName
-      value: Supply Console (Computer Board)
+      propertyPath: initialDescription
+      value: A circuit board for a supply console.
       objectReference: {fileID: 0}
     - target: {fileID: 8985614780216144459, guid: e7e1f76c9d673354f923f7906532be5b,
         type: 3}
@@ -124,8 +135,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9018287352618307583, guid: e7e1f76c9d673354f923f7906532be5b,
         type: 3}
+      propertyPath: _assetId
+      value: 3393028189
+      objectReference: {fileID: 0}
+    - target: {fileID: 9018287352618307583, guid: e7e1f76c9d673354f923f7906532be5b,
+        type: 3}
       propertyPath: m_AssetId
-      value: 
+      value: 7cfa72a1e4d4f22479cff15451d91210
       objectReference: {fileID: 0}
     - target: {fileID: 9098015153725456663, guid: e7e1f76c9d673354f923f7906532be5b,
         type: 3}
@@ -134,4 +150,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 775dbcb4ab1160e45b07681fd43122f2,
         type: 3}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e7e1f76c9d673354f923f7906532be5b, type: 3}

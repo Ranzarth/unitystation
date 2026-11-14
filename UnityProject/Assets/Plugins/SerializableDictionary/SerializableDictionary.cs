@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.Serialization;
+using SecureStuff;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -233,7 +234,7 @@ public abstract class SerializableDictionaryBase<TKey, TValue, TValueStorage> : 
 
 public static class SerializableDictionary
 {
-	public class Storage<T> : SerializableDictionaryBase.Storage
+	public class Storage<T> : SerializableDictionaryBase.Storage, IAllowedReflection
 	{
 		public T data;
 	}
@@ -270,33 +271,7 @@ public class SerializableDictionary<TKey, TValue, TValueStorage> : SerializableD
 
 	protected override void SetValue(TValueStorage[] storage, int i, TValue value)
 	{
-		storage[i] = new TValueStorage();
+		storage[i] = AllowedReflection.CreateInstance<TValueStorage>();
 		storage[i].data = value;
-	}
-}
-
-
-[Serializable]
-public class GridDictionary<TValue> : SerializableDictionary<long, TValue>
-{
-	public TValue this[int x, int y]
-	{
-		get { return this[CalculateKey(x, y)]; }
-		set { this[CalculateKey(x, y)] = value; }
-	}
-
-	public bool ContainsKey(int x, int y)
-	{
-		return ContainsKey(CalculateKey(x, y));
-	}
-
-	public void Remove(int x, int y)
-	{
-		Remove(CalculateKey(x, y));
-	}
-
-	private static long CalculateKey(int x, int y)
-	{
-		return ((long) x << 32) + y;
 	}
 }

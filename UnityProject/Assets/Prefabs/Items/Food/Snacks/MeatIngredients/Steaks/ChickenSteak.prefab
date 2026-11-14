@@ -5,6 +5,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 773223925429699056, guid: bdbfea1235c0674488cd2a61b2e9cfa4,
@@ -15,13 +16,13 @@ PrefabInstance:
     - target: {fileID: 854983433838044996, guid: bdbfea1235c0674488cd2a61b2e9cfa4,
         type: 3}
       propertyPath: relatedRecipes.Array.size
-      value: 16
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 854983433838044996, guid: bdbfea1235c0674488cd2a61b2e9cfa4,
         type: 3}
       propertyPath: relatedRecipes.Array.data[15].recipe
       value: 
-      objectReference: {fileID: 11400000, guid: 4bf3efd7099da68408abbd8b73c50e9a,
+      objectReference: {fileID: 11400000, guid: 1e9cbc79a37389b40b5ca9ab25b9770c,
         type: 2}
     - target: {fileID: 854983433838044996, guid: bdbfea1235c0674488cd2a61b2e9cfa4,
         type: 3}
@@ -90,8 +91,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 991535446379057958, guid: bdbfea1235c0674488cd2a61b2e9cfa4,
         type: 3}
+      propertyPath: _assetId
+      value: 1683416766
+      objectReference: {fileID: 0}
+    - target: {fileID: 991535446379057958, guid: bdbfea1235c0674488cd2a61b2e9cfa4,
+        type: 3}
       propertyPath: m_AssetId
-      value: 
+      value: 89f21760b213f6c408db255ec5984545
       objectReference: {fileID: 0}
     - target: {fileID: 1055922833323646414, guid: bdbfea1235c0674488cd2a61b2e9cfa4,
         type: 3}
@@ -99,6 +105,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: a1f8a3239bc140a4e8b630ead100a2e1,
         type: 3}
+    - target: {fileID: 6119310249531040511, guid: bdbfea1235c0674488cd2a61b2e9cfa4,
+        type: 3}
+      propertyPath: parentID
+      value: bdbfea1235c0674488cd2a61b2e9cfa4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6119310249531040511, guid: bdbfea1235c0674488cd2a61b2e9cfa4,
+        type: 3}
+      propertyPath: foreverID
+      value: 89f21760b213f6c408db255ec5984545
+      objectReference: {fileID: 0}
     - target: {fileID: 6417786233635558677, guid: bdbfea1235c0674488cd2a61b2e9cfa4,
         type: 3}
       propertyPath: PresentSpriteSet
@@ -106,4 +122,7 @@ PrefabInstance:
       objectReference: {fileID: 11400000, guid: b1d2f5ecdc2a9ab4bafb740d98911354,
         type: 2}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bdbfea1235c0674488cd2a61b2e9cfa4, type: 3}

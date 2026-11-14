@@ -12,59 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad263680d73c8c54ba53262044a57d04, type: 3}
   m_Name: pod_wall
   m_EditorClassIdentifier: 
-  displayName: 
-  LayerType: 0
-  TileType: 1
-  RequiredTiles:
-  - {fileID: 11400000, guid: 83855008e43a2674d8d6a006ce94326f, type: 2}
-  floorTileSounds: {fileID: 0}
-  CanSoundOverride: 0
-  atmosPassable: 0
-  isSealed: 0
-  SpawnWithNoAir: 0
-  passable: 0
-  mineable: 0
-  miningTime: 5
-  RadiationPassability: 0.35
-  ThermalConductivity: 0
-  HeatCapacity: 312500
-  doesReflectBullet: 0
-  indestructible: 0
-  ExplosionImpassable: 1
-  passableException:
-    m_keys: 
-    m_values: 
-  maxHealth: 100
-  damageDeflection: 0
-  armor:
-    Melee: 90
-    Bullet: 90
-    Laser: 90
-    Energy: 90
-    Bomb: 90
-    Rad: 100
-    Fire: 100
-    Acid: 90
-    Magic: 0
-    Bio: 100
-    DismembermentProtectionChance: 0
-  tileInteractions: []
-  spawnOnDeconstruct: {fileID: 0}
-  spawnAmountOnDeconstruct: 1
-  lootOnDespawn: {fileID: 0}
-  toTileWhenDestroyed: {fileID: 0}
-  spawnOnDestroy: {fileID: 0}
-  damageOverlayList: {fileID: 0}
-  soundOnHit:
-    SetLoadSetting: 0
-    AssetAddress: 
-    AssetReference:
-      m_AssetGUID: 
-      m_SubObjectName: 
-      m_SubObjectType: 
-  SoundOnDestroy: []
-  connectCategory: 0
-  connectType: 1
+  _PreviewSprite: {fileID: 0}
+  sprite: {fileID: 0}
+  Sprites: []
   spriteSheet:
     Texture: {fileID: 2800000, guid: 492fc21e4691b5a4193ea0dd47975185, type: 3}
     Sprites:
@@ -117,4 +67,82 @@ MonoBehaviour:
     - {fileID: 21300092, guid: 492fc21e4691b5a4193ea0dd47975185, type: 3}
     - {fileID: 21300094, guid: 492fc21e4691b5a4193ea0dd47975185, type: 3}
     EquippedData: {fileID: 0}
+  spriteSheets: []
+  connectCategory: 0
+  connectType: 4
   texturePath: Walls
+  Blacklist: []
+  WhiteList:
+  - {fileID: 11400000}
+  - {fileID: 11400000, guid: b9c1874f40704f011b254574a1ed958d, type: 2}
+  - {fileID: 11400000, guid: dfddefbff15c0ec21a185871aa0d0aac, type: 2}
+  - {fileID: 11400000, guid: 80bb7687da0794fedb95f7293a083aef, type: 2}
+  AnimationSpeed: 1
+  AnimationStartTime: 0
+  randomizeStartTime: 0
+  TileAnimationFlags: 0
+  <ForeverID>k__BackingField: 6c960bdee29d0554297e7b69ce890dd3
+  displayName: pod wall
+  description: An easily-compressable wall used for temporary shelter.
+  LayerType: 0
+  TileType: 1
+  RequiredTiles:
+  - {fileID: 11400000, guid: 83855008e43a2674d8d6a006ce94326f, type: 2}
+  Mass: 1
+  floorTileSounds: {fileID: 0}
+  CanSoundOverride: 0
+  atmosPassable: 0
+  isSealed: 0
+  SpawnWithNoAir: 0
+  passable: 0
+  mineable: 0
+  miningTime: 5
+  miningHardness: 1
+  constructable: 0
+  RadiationPassability: 0.75
+  ThermalConductivity: 0
+  HeatCapacity: 312500
+  doesReflectBullet: 0
+  indestructible: 0
+  ExplosionImpassable: 1
+  BlocksTileInteractionsUnder: 1
+  passableException:
+    m_keys: 
+    m_values: 
+  maxHealth: 100
+  damageDeflection: 0
+  armor:
+    Melee: 90
+    Bullet: 90
+    Laser: 90
+    Energy: 90
+    Bomb: 90
+    Rad: 100
+    Fire: 100
+    Acid: 90
+    Magic: 0
+    Bio: 100
+    Anomaly: 0
+    DismembermentProtectionChance: 0
+    StunImmunity: 0
+    TemperatureProtectionInK: {x: 268.15, y: 313.15}
+    PressureProtectionInKpa: {x: 30, y: 300}
+  tileInteractions: []
+  <OnTileStartMining>k__BackingField: []
+  <OnTileFinishMining>k__BackingField: []
+  tileStepInteractions: []
+  spawnOnDeconstruct: {fileID: 0}
+  spawnAmountOnDeconstruct: 1
+  lootOnDespawn: {fileID: 0}
+  toTileWhenDestroyed: {fileID: 0}
+  spawnOnDestroy: {fileID: 0}
+  damageOverlayList: {fileID: 0}
+  soundOnHit:
+    AssetAddress: 
+    AssetReference:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectGUID: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  SoundOnDestroy: []

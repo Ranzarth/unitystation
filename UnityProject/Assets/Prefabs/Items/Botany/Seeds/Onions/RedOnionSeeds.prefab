@@ -5,6 +5,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 201949902312546087, guid: ac68ac78347478d4c8ba461d1d567a98,
@@ -13,10 +14,26 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: ca861f9d7cc6bf040af09ae56427d561,
         type: 2}
+    - target: {fileID: 201949902312546087, guid: ac68ac78347478d4c8ba461d1d567a98,
+        type: 3}
+      propertyPath: InitialPresentSpriteSet
+      value: 
+      objectReference: {fileID: 11400000, guid: ca861f9d7cc6bf040af09ae56427d561,
+        type: 2}
+    - target: {fileID: 1094900886905989325, guid: ac68ac78347478d4c8ba461d1d567a98,
+        type: 3}
+      propertyPath: parentID
+      value: ac68ac78347478d4c8ba461d1d567a98
+      objectReference: {fileID: 0}
+    - target: {fileID: 1094900886905989325, guid: ac68ac78347478d4c8ba461d1d567a98,
+        type: 3}
+      propertyPath: foreverID
+      value: c444d67e70807d048b42ac7a63d44c83
+      objectReference: {fileID: 0}
     - target: {fileID: 4645267932907257369, guid: ac68ac78347478d4c8ba461d1d567a98,
         type: 3}
-      propertyPath: plantData.MutatesInToGameObject.Array.size
-      value: 0
+      propertyPath: plantData.PlantName
+      value: Red Onion Sprouts
       objectReference: {fileID: 0}
     - target: {fileID: 4645267932907257369, guid: ac68ac78347478d4c8ba461d1d567a98,
         type: 3}
@@ -26,42 +43,58 @@ PrefabInstance:
         type: 3}
     - target: {fileID: 4645267932907257369, guid: ac68ac78347478d4c8ba461d1d567a98,
         type: 3}
-      propertyPath: plantData.PlantName
-      value: Red Onion Sprouts
-      objectReference: {fileID: 0}
-    - target: {fileID: 4645267932907257369, guid: ac68ac78347478d4c8ba461d1d567a98,
-        type: 3}
       propertyPath: plantData.FullyGrownSpriteSO
       value: 
       objectReference: {fileID: 11400000, guid: 8d9bed77b5f06eb44931c53af39b9ab8,
         type: 2}
     - target: {fileID: 4645267932907257369, guid: ac68ac78347478d4c8ba461d1d567a98,
         type: 3}
-      propertyPath: plantData.GrowthSpritesSOs.Array.data[2]
+      propertyPath: plantData.ReagentProduction.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4645267932907257369, guid: ac68ac78347478d4c8ba461d1d567a98,
+        type: 3}
+      propertyPath: 'plantData.GrowthSpritesSOs.Array.data[0]'
       value: 
-      objectReference: {fileID: 11400000, guid: d7dc7680a89d9fe44bc4ea31d98c5915,
+      objectReference: {fileID: 11400000, guid: 37518d9068386fb4aab9eaecefa20613,
         type: 2}
     - target: {fileID: 4645267932907257369, guid: ac68ac78347478d4c8ba461d1d567a98,
         type: 3}
-      propertyPath: plantData.GrowthSpritesSOs.Array.data[1]
+      propertyPath: 'plantData.GrowthSpritesSOs.Array.data[1]'
       value: 
       objectReference: {fileID: 11400000, guid: 73e12ca20b3e6984794de6f75f63f384,
         type: 2}
     - target: {fileID: 4645267932907257369, guid: ac68ac78347478d4c8ba461d1d567a98,
         type: 3}
-      propertyPath: plantData.GrowthSpritesSOs.Array.data[0]
+      propertyPath: 'plantData.GrowthSpritesSOs.Array.data[2]'
       value: 
-      objectReference: {fileID: 11400000, guid: 37518d9068386fb4aab9eaecefa20613,
+      objectReference: {fileID: 11400000, guid: d7dc7680a89d9fe44bc4ea31d98c5915,
         type: 2}
-    - target: {fileID: 5865654695140051906, guid: ac68ac78347478d4c8ba461d1d567a98,
+    - target: {fileID: 4645267932907257369, guid: ac68ac78347478d4c8ba461d1d567a98,
         type: 3}
-      propertyPath: initialDescription
-      value: For growing exceptionally potent onions.
+      propertyPath: plantData.MutatesInToGameObject.Array.size
+      value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4645267932907257369, guid: ac68ac78347478d4c8ba461d1d567a98,
+        type: 3}
+      propertyPath: plantData.ReagentProduction.Array.data[2].percentage
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 4645267932907257369, guid: ac68ac78347478d4c8ba461d1d567a98,
+        type: 3}
+      propertyPath: plantData.ReagentProduction.Array.data[2].ChemistryReagent
+      value: 
+      objectReference: {fileID: 11400000, guid: f8412c39f580773179b64e917d08f1dd,
+        type: 2}
     - target: {fileID: 5865654695140051906, guid: ac68ac78347478d4c8ba461d1d567a98,
         type: 3}
       propertyPath: initialName
       value: pack of red onion seeds
+      objectReference: {fileID: 0}
+    - target: {fileID: 5865654695140051906, guid: ac68ac78347478d4c8ba461d1d567a98,
+        type: 3}
+      propertyPath: initialDescription
+      value: For growing exceptionally potent onions.
       objectReference: {fileID: 0}
     - target: {fileID: 6159397029123725308, guid: ac68ac78347478d4c8ba461d1d567a98,
         type: 3}
@@ -71,13 +104,23 @@ PrefabInstance:
         type: 3}
     - target: {fileID: 6205770011116509460, guid: ac68ac78347478d4c8ba461d1d567a98,
         type: 3}
+      propertyPath: _assetId
+      value: 1084239894
+      objectReference: {fileID: 0}
+    - target: {fileID: 6205770011116509460, guid: ac68ac78347478d4c8ba461d1d567a98,
+        type: 3}
       propertyPath: m_AssetId
-      value: 
+      value: c444d67e70807d048b42ac7a63d44c83
       objectReference: {fileID: 0}
     - target: {fileID: 6308249408532194464, guid: ac68ac78347478d4c8ba461d1d567a98,
         type: 3}
       propertyPath: m_Name
       value: RedOnionSeeds
+      objectReference: {fileID: 0}
+    - target: {fileID: 6312046983750441428, guid: ac68ac78347478d4c8ba461d1d567a98,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6312046983750441428, guid: ac68ac78347478d4c8ba461d1d567a98,
         type: 3}
@@ -96,6 +139,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6312046983750441428, guid: ac68ac78347478d4c8ba461d1d567a98,
         type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6312046983750441428, guid: ac68ac78347478d4c8ba461d1d567a98,
+        type: 3}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
@@ -108,16 +156,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6312046983750441428, guid: ac68ac78347478d4c8ba461d1d567a98,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6312046983750441428, guid: ac68ac78347478d4c8ba461d1d567a98,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6312046983750441428, guid: ac68ac78347478d4c8ba461d1d567a98,
         type: 3}
@@ -135,4 +173,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ac68ac78347478d4c8ba461d1d567a98, type: 3}

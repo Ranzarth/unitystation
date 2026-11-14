@@ -1,0 +1,67 @@
+﻿using System;
+using System.Linq;
+using Cysharp.Threading.Tasks;
+using UnityEngine;
+using US13.Core.Addressables;
+using US13.Core.Addressables.Types;
+using US13.Core.GameGizmos;
+using US13.Core.Physics;
+using US13.Managers.MatrixManager;
+using US13.Tilemaps.Behaviours.Layers;
+using Util;
+
+namespace US13.Systems.Explosions.NodeTypes
+{
+	public class DarkMatterExplosionNode : ExplosionNode
+	{
+		public override OverlayType EffectOverlayType => OverlayType.DarkMatter;
+		public override AddressableAudioSource CustomSound => CommonSounds.Instance.GravHit;
+
+		public DarkMatterExplosionNode(Vector3 _explosionStartWorldPosition) : base(_explosionStartWorldPosition) { }
+
+		public override async UniTask Process()
+		{
+			float force = AngleAndIntensity.magnitude; //We don't ignore less than 0 for dark matter bombs, as <0 is a push
+
+			if (matrix.MetaTileMap == false) return;
+
+			var locationNoZ = new Vector3Int(LocalLocation.x, LocalLocation.y, 0);
+			await  ProcessTiles(force, locationNoZ);
+		}
+
+		protected async UniTask ProcessTiles(float force, Vector3Int nodeLocation)
+		{
+			var energyExpended = DoDamageToTiles(matrix, force, nodeLocation, matrix.MetaTileMap);
+			foreach (var line in PresentLines)
+			{
+				line.ExplosionStrength -= Math.Abs(energyExpended * (line.ExplosionStrength / force));
+			}
+			AngleAndIntensity = Vector2.zero;
+		}
+
+		public override float DoDamageToTiles(Matrix matrix, float explosionForce, Vector3Int nodeLocation, MetaTileMap tileMap)
+		{
+			PullPushThings(nodeLocation, explosionForce);
+			return 2f; //magic number
+		}
+
+		private void PullPushThings(Vector3Int LocalPosition, float force)
+		{
+			float throwSpeed = Math.Max(0.5f, force * 0.25f);
+			var worldPosition = LocalPosition.ToWorld(matrix);
+			Vector2 direction = AngleAndIntensity.normalized;
+			//GameGizmomanager.Instance.AddNewLine(null, worldPosition - (Vector3) direction, null,worldPosition +  (Vector3)direction, color: Color.green, 0.05f, 10);
+			foreach (var objectPhysics in MatrixManager.GetAt<UniversalObjectPhysics>(worldPosition, true).Distinct())
+			{
+				if (objectPhysics == false) continue;
+
+				objectPhysics.NewtonianPush(direction, throwSpeed, inSlideTime: 0.35f);
+			}
+		}
+
+		public override ExplosionNode GenInstance()
+		{
+			return new DarkMatterExplosionNode(ExplosionStartWorldPosition);
+		}
+	}
+}

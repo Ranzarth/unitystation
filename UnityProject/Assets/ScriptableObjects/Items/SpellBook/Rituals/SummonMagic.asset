@@ -19,12 +19,13 @@ MonoBehaviour:
   conflictsWith: []
   name: Summon Magic
   eventType: 3
-  eventIndex: 1
+  eventObjectNameIndex: Wizard - Summon Magic
   invocationMessage: 
   castSound:
-    SetLoadSetting: 0
     AssetAddress: null
     AssetReference:
       m_AssetGUID: 
       m_SubObjectName: 
+      m_SubObjectGUID: 
       m_SubObjectType: 
+      m_EditorAssetChanged: 0

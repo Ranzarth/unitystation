@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1916b10721f72c927a14093e8210cb3f, type: 3}
   m_Name: BugSpray
   m_EditorClassIdentifier: 
+  foreverID: Bug Spray
   displayName: Bug Spray
   description: A harsh, acrid, bitter drink, for those who need something to brace
     themselves.
   color: {r: 0.2, g: 1, b: 0.2, a: 1}
   state: 1
   heatDensity: 5
-  indexInSingleton: 28
+  indexInSingleton: 32

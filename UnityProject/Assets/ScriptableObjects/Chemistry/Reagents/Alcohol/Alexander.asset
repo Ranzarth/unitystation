@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1916b10721f72c927a14093e8210cb3f, type: 3}
   m_Name: Alexander
   m_EditorClassIdentifier: 
+  foreverID: Alexander
   displayName: Alexander
   description: Named after a Greek hero, this mix is said to embolden a user's shield
     as if they were in a phalanx.
   color: {r: 0.9607843, g: 0.9137255, b: 0.827451, a: 1}
   state: 1
   heatDensity: 5
-  indexInSingleton: 3
+  indexInSingleton: 4

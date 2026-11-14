@@ -1,55 +1,38 @@
-﻿using UnityEngine;
-using UnityEngine.SceneManagement;
+﻿using Logs;
+using UnityEngine;
 using UnityEngine.UI;
+using US13.HealthV2;
 
-public class DamageMonitorListener : MonoBehaviour
+namespace Prefabs.Mobs
 {
-	public BodyPartType BodyPartType;
-
-	[SerializeField] private Image bodyPartImage = default;
-	[SerializeField] private Image damageMaskImage = default;
-
-	private void Awake()
+	public class DamageMonitorListener : MonoBehaviour
 	{
-		if(damageMaskImage == null)
-			Logger.LogWarning($"Missing reference on {name}.DamageMonitorListener.{nameof(damageMaskImage)}", Category.UI);
-	}
+		public BodyPartType BodyPartType;
 
-	private void OnEnable()
-	{
-		SceneManager.activeSceneChanged += OnLevelFinishedLoading;
-	}
+		[SerializeField] private Image bodyPartImage = default;
+		[SerializeField] private Image damageMaskImage = default;
 
-	private void OnDisable()
-	{
-		SceneManager.activeSceneChanged -= OnLevelFinishedLoading;
-	}
+		private void Awake()
+		{
+			if(damageMaskImage == null)
+				Loggy.Warning($"Missing reference on {name}.DamageMonitorListener.{nameof(damageMaskImage)}", Category.UI);
+		}
 
-	//Reset healthHUD
-	private void OnLevelFinishedLoading(Scene oldScene, Scene newScene)
-	{
-		Reset();
-	}
 
-	public void Reset()
-	{
-		SetDamageColor(new Color());
-		SetBodyPartColor(Color.white);
-	}
+		public void SetBodyPartColor(Color color)
+		{
+			if(bodyPartImage == null)
+				return;
 
-	public void SetBodyPartColor(Color color)
-	{
-		if(bodyPartImage == null)
-			return;
+			bodyPartImage.color = color;
+		}
 
-		bodyPartImage.color = color;
-	}
+		public void SetDamageColor(Color color)
+		{
+			if (damageMaskImage == null)
+				return;
 
-	public void SetDamageColor(Color color)
-	{
-		if (damageMaskImage == null)
-			return;
-		
-		damageMaskImage.color = color;
+			damageMaskImage.color = color;
+		}
 	}
 }

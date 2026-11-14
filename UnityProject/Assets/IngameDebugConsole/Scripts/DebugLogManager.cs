@@ -1,10 +1,15 @@
 ﻿using System.Collections.Generic;
+using Logs;
+using RCON;
+using SecureStuff;
 using UnityEngine;
 using UnityEngine.EventSystems;
-using Mirror;
 using UnityEngine.UI;
+using US13.Core.Input_System;
+using US13.Managers.NetworkManagement;
+using US13.UI.Core.Info;
 
-namespace IngameDebugConsole
+namespace IngameDebugConsole.Scripts
 {
 	/// <summary>
 	/// An enum to represent filtered log types
@@ -348,18 +353,19 @@ namespace IngameDebugConsole
 			// If command is submitted
 			if (addedChar == '\n')
 			{
-				// Clear the command field
-				if (clearCommandAfterExecution)
-					commandInputField.text = "";
-
 				if (text.Length > 0)
 				{
 					// Execute the command
+					DebugLogConsole.InitializeAsync();
 					DebugLogConsole.ExecuteCommand(text);
 
 					// Snap to bottom and select the latest entry
 					SetSnapToBottom(true);
 				}
+
+				// Clear the command field
+				if (clearCommandAfterExecution)
+					commandInputField.text = "";
 
 				return '\0';
 			}
@@ -432,7 +438,7 @@ namespace IngameDebugConsole
 				infoEntryCountText.text = infoEntryCount.ToString();
 
 				// If debug popup is visible, notify it of the new debug entry
-				if (isLogWindowVisible == false)
+				if (isLogWindowVisible == false && CustomNetworkManager.IsHeadless == false)
 					popupManager.NewInfoLogArrived();
 			}
 			else if (logType == LogType.Warning)
@@ -441,7 +447,7 @@ namespace IngameDebugConsole
 				warningEntryCountText.text = warningEntryCount.ToString();
 
 				// If debug popup is visible, notify it of the new debug entry
-				if (isLogWindowVisible == false)
+				if (isLogWindowVisible == false && CustomNetworkManager.IsHeadless == false)
 					popupManager.NewWarningLogArrived();
 			}
 			else
@@ -450,7 +456,7 @@ namespace IngameDebugConsole
 				errorEntryCountText.text = errorEntryCount.ToString();
 
 				// If debug popup is visible, notify it of the new debug entry
-				if (isLogWindowVisible == false)
+				if (isLogWindowVisible == false && CustomNetworkManager.IsHeadless == false)
 					popupManager.NewErrorLogArrived();
 			}
 		}
@@ -600,12 +606,12 @@ namespace IngameDebugConsole
 		{
 			if (Debug.isDebugBuild)
 			{
-				ProfileManager.Instance.StartProfile(30);
-				Logger.Log("Running a local profile, saving on installation folder", Category.DebugConsole);
+				SafeProfileManager.Instance.StartProfile(30);
+				Loggy.Info("Running a local profile, saving on installation folder", Category.DebugConsole);
 			}
 			else
 			{
-				Logger.Log("Unable to run local profile, the build needs to be in development mode", Category.DebugConsole);
+				Loggy.Info("Unable to run local profile, the build needs to be in development mode", Category.DebugConsole);
 			}
 		}
 
@@ -616,12 +622,12 @@ namespace IngameDebugConsole
 		{
 			if (Debug.isDebugBuild)
 			{
-				ProfileManager.Instance.RunMemoryProfile();
-				Logger.Log("Running a local memory profile, saving on installation folder", Category.DebugConsole);
+				SafeProfileManager.Instance.RunMemoryProfile();
+				Loggy.Info("Running a local memory profile, saving on installation folder", Category.DebugConsole);
 			}
 			else
 			{
-				Logger.Log("Unable to run local profile, the build needs to be in development mode", Category.DebugConsole);
+				Loggy.Info("Unable to run local profile, the build needs to be in development mode", Category.DebugConsole);
 			}
 		}
 

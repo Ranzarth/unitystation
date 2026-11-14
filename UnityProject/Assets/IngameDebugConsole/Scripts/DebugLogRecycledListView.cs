@@ -1,8 +1,7 @@
-﻿using UnityEngine;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
+using UnityEngine;
 
-
-namespace IngameDebugConsole
+namespace IngameDebugConsole.Scripts
 {
 	/// <summary>
 	/// Handles the log items in an optimized way such that existing log items are
@@ -42,7 +41,7 @@ namespace IngameDebugConsole
 		/// <summary>
 		/// Indices of debug entries to show in collapsedLogEntries
 		/// </summary>
-		private DebugLogIndexList indicesOfEntriesToShow = null;
+		private DebugLogIndexList indicesOfEntriesToShow = new DebugLogIndexList();
 
 		private int indexOfSelectedLogEntry = int.MaxValue;
 		private float positionOfSelectedLogEntry = float.MaxValue;

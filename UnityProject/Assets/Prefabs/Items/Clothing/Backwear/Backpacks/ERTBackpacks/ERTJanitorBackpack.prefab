@@ -5,6 +5,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 4283365345761481680, guid: 7911a84496c2da348b8f32fd3d5c8b4f,
@@ -18,10 +19,21 @@ PrefabInstance:
       value: A spacious backpack with lots of pockets, worn by Janitors of an Emergency
         Response Team.
       objectReference: {fileID: 0}
+    - target: {fileID: 4283365345761481680, guid: 7911a84496c2da348b8f32fd3d5c8b4f,
+        type: 3}
+      propertyPath: itemSprites.SpriteInventoryIcon
+      value: 
+      objectReference: {fileID: 11400000, guid: 16a79b8f0a203e74ba40e970bb5c0b8b,
+        type: 2}
+    - target: {fileID: 4325774763116396806, guid: 7911a84496c2da348b8f32fd3d5c8b4f,
+        type: 3}
+      propertyPath: _assetId
+      value: 2402892004
+      objectReference: {fileID: 0}
     - target: {fileID: 4325774763116396806, guid: 7911a84496c2da348b8f32fd3d5c8b4f,
         type: 3}
       propertyPath: m_AssetId
-      value: 
+      value: 5d8d6e37a8f9cd747a5cff8750a23f98
       objectReference: {fileID: 0}
     - target: {fileID: 4435916450741174726, guid: 7911a84496c2da348b8f32fd3d5c8b4f,
         type: 3}
@@ -95,21 +107,29 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 9708fa954e5ca0e4fa80506af09a4fa1,
         type: 2}
+    - target: {fileID: 7288707962627076319, guid: 7911a84496c2da348b8f32fd3d5c8b4f,
+        type: 3}
+      propertyPath: parentID
+      value: 7911a84496c2da348b8f32fd3d5c8b4f
+      objectReference: {fileID: 0}
+    - target: {fileID: 7288707962627076319, guid: 7911a84496c2da348b8f32fd3d5c8b4f,
+        type: 3}
+      propertyPath: foreverID
+      value: 5d8d6e37a8f9cd747a5cff8750a23f98
+      objectReference: {fileID: 0}
     - target: {fileID: 7341204022170316599, guid: 7911a84496c2da348b8f32fd3d5c8b4f,
         type: 3}
       propertyPath: clothData
       value: 
-      objectReference: {fileID: 11400000, guid: 5247d8acb9d38d340b59124d54d00674,
-        type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 7341204022170316599, guid: 7911a84496c2da348b8f32fd3d5c8b4f,
         type: 3}
       propertyPath: currentClothData
       value: 
-      objectReference: {fileID: 11400000, guid: 5247d8acb9d38d340b59124d54d00674,
-        type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 7341204022170316599, guid: 7911a84496c2da348b8f32fd3d5c8b4f,
         type: 3}
-      propertyPath: allClothingData.Array.data[0]
+      propertyPath: 'allClothingData.Array.data[0]'
       value: 
       objectReference: {fileID: 11400000, guid: 2669f418af4dd4b499f36a220eea5caf,
         type: 2}
@@ -119,5 +139,14 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 16a79b8f0a203e74ba40e970bb5c0b8b,
         type: 2}
+    - target: {fileID: 7555377257183414069, guid: 7911a84496c2da348b8f32fd3d5c8b4f,
+        type: 3}
+      propertyPath: InitialPresentSpriteSet
+      value: 
+      objectReference: {fileID: 11400000, guid: 16a79b8f0a203e74ba40e970bb5c0b8b,
+        type: 2}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7911a84496c2da348b8f32fd3d5c8b4f, type: 3}

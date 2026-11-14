@@ -27,9 +27,9 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -48,9 +48,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 22b6a389301ee2045b529d9247cd13ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  singleRingConfig: {fileID: 11400000, guid: 452ed6493ab53654dafbc2b03f99a120, type: 2}
+  dualRingConfig: {fileID: 11400000, guid: 2ede23c89db8cff4babe29ca2b421d49, type: 2}
+  rightClickOptions: {fileID: 11400000, guid: 6f32b8750a2f2ad4cb20eedc5cb28190, type: 2}
   rightClickOptionOrder: {fileID: 11400000, guid: 69ad514d4b1e18944b47bad4e6dfcfa5,
     type: 2}
   VariableViewerOption: {fileID: 11400000, guid: c3d5ebc9676a5294787f59f29e369dcf,
     type: 2}
+  UsingLegacyDropDownMenu: 1
   menuControllerPrefab: {fileID: 1352971627685437710, guid: 8aa52a91777f1af43ad4237eb19b4138,
+    type: 3}
+  legacyMenuControllerPrefab: {fileID: 7686962139612210275, guid: 9a6e0aa06f0279a44a90292c55f6c1b2,
+    type: 3}
+  quickSelectMenuControllerPrefab: {fileID: 7899778639368974607, guid: 40216afeae1cff04f908ab8dab6cf2e2,
     type: 3}

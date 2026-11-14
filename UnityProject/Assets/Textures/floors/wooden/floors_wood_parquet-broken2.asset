@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9d1de2691495b304e9843ac3335b626d, type: 3}
-  m_Name: wood_parquet-broken2
+  m_Name: floors_wood_parquet-broken2
   m_EditorClassIdentifier: 
+  foreverID: d8c09124af7fc1146a9cbc615aab3681
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 88a3c3c765eee9449a4884fdf030ac71, type: 3}
       secondDelay: 0
   IsPalette: 0
-  setID: 23403
   DisplayName: 

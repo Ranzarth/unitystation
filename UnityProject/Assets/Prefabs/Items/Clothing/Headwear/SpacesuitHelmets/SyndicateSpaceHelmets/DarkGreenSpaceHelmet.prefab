@@ -5,6 +5,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1590696478235917065, guid: 40aacdc6b510ebd42951c445fe3ff750,
@@ -13,18 +14,22 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 88b3f9029b9840646bb125642c915b27,
         type: 2}
+    - target: {fileID: 1590696478235917065, guid: 40aacdc6b510ebd42951c445fe3ff750,
+        type: 3}
+      propertyPath: InitialPresentSpriteSet
+      value: 
+      objectReference: {fileID: 11400000, guid: 88b3f9029b9840646bb125642c915b27,
+        type: 2}
     - target: {fileID: 1956936876739629835, guid: 40aacdc6b510ebd42951c445fe3ff750,
         type: 3}
       propertyPath: clothData
       value: 
-      objectReference: {fileID: 11400000, guid: f14884ee86c3ff44eadc450e6d84efa6,
-        type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 1956936876739629835, guid: 40aacdc6b510ebd42951c445fe3ff750,
         type: 3}
       propertyPath: currentClothData
       value: 
-      objectReference: {fileID: 11400000, guid: f14884ee86c3ff44eadc450e6d84efa6,
-        type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 1956936876739629835, guid: 40aacdc6b510ebd42951c445fe3ff750,
         type: 3}
       propertyPath: allClothingData.Array.size
@@ -32,10 +37,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1956936876739629835, guid: 40aacdc6b510ebd42951c445fe3ff750,
         type: 3}
-      propertyPath: allClothingData.Array.data[0]
+      propertyPath: 'allClothingData.Array.data[0]'
       value: 
       objectReference: {fileID: 11400000, guid: 2b38438d4b58bf147a8b033c8863034f,
         type: 2}
+    - target: {fileID: 2013087968285052131, guid: 40aacdc6b510ebd42951c445fe3ff750,
+        type: 3}
+      propertyPath: parentID
+      value: 40aacdc6b510ebd42951c445fe3ff750
+      objectReference: {fileID: 0}
+    - target: {fileID: 2013087968285052131, guid: 40aacdc6b510ebd42951c445fe3ff750,
+        type: 3}
+      propertyPath: foreverID
+      value: bb8c4c04b909b3246a628d03592f722a
+      objectReference: {fileID: 0}
     - target: {fileID: 4730082184557294546, guid: 40aacdc6b510ebd42951c445fe3ff750,
         type: 3}
       propertyPath: m_Sprite
@@ -44,8 +59,13 @@ PrefabInstance:
         type: 3}
     - target: {fileID: 4810232165925911866, guid: 40aacdc6b510ebd42951c445fe3ff750,
         type: 3}
+      propertyPath: _assetId
+      value: 559396926
+      objectReference: {fileID: 0}
+    - target: {fileID: 4810232165925911866, guid: 40aacdc6b510ebd42951c445fe3ff750,
+        type: 3}
       propertyPath: m_AssetId
-      value: 
+      value: bb8c4c04b909b3246a628d03592f722a
       objectReference: {fileID: 0}
     - target: {fileID: 4847798527116557818, guid: 40aacdc6b510ebd42951c445fe3ff750,
         type: 3}
@@ -113,4 +133,7 @@ PrefabInstance:
       value: dark green space helmet
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 40aacdc6b510ebd42951c445fe3ff750, type: 3}

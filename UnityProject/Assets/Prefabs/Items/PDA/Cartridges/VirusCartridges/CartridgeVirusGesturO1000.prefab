@@ -5,6 +5,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 4030319348547672731, guid: a6ac0281d1a8192478248d8f86c2d784,
@@ -13,16 +14,31 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 9ff4c3192df1e0f448f82bc8dc024cae,
         type: 2}
+    - target: {fileID: 4184465052614028657, guid: a6ac0281d1a8192478248d8f86c2d784,
+        type: 3}
+      propertyPath: parentID
+      value: a6ac0281d1a8192478248d8f86c2d784
+      objectReference: {fileID: 0}
+    - target: {fileID: 4184465052614028657, guid: a6ac0281d1a8192478248d8f86c2d784,
+        type: 3}
+      propertyPath: foreverID
+      value: 535f59ed43494af4ea7bac3d7eec4043
+      objectReference: {fileID: 0}
     - target: {fileID: 6942713012907594304, guid: a6ac0281d1a8192478248d8f86c2d784,
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 837177316481191779, guid: 9bca565814c3a6246a612dbdfd8a8d50,
+      objectReference: {fileID: 5003848260886027481, guid: 9bca565814c3a6246a612dbdfd8a8d50,
         type: 3}
     - target: {fileID: 7109087247734137116, guid: a6ac0281d1a8192478248d8f86c2d784,
         type: 3}
       propertyPath: m_Name
       value: CartridgeVirusGesturO1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 7114296596419288168, guid: a6ac0281d1a8192478248d8f86c2d784,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7114296596419288168, guid: a6ac0281d1a8192478248d8f86c2d784,
         type: 3}
@@ -41,6 +57,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7114296596419288168, guid: a6ac0281d1a8192478248d8f86c2d784,
         type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7114296596419288168, guid: a6ac0281d1a8192478248d8f86c2d784,
+        type: 3}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
@@ -53,16 +74,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7114296596419288168, guid: a6ac0281d1a8192478248d8f86c2d784,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7114296596419288168, guid: a6ac0281d1a8192478248d8f86c2d784,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7114296596419288168, guid: a6ac0281d1a8192478248d8f86c2d784,
         type: 3}
@@ -81,8 +92,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7150793407664610472, guid: a6ac0281d1a8192478248d8f86c2d784,
         type: 3}
+      propertyPath: _assetId
+      value: 1732742448
+      objectReference: {fileID: 0}
+    - target: {fileID: 7150793407664610472, guid: a6ac0281d1a8192478248d8f86c2d784,
+        type: 3}
       propertyPath: m_AssetId
-      value: 
+      value: 535f59ed43494af4ea7bac3d7eec4043
       objectReference: {fileID: 0}
     - target: {fileID: 7225207134604889726, guid: a6ac0281d1a8192478248d8f86c2d784,
         type: 3}
@@ -90,4 +106,7 @@ PrefabInstance:
       value: Gestur-O 1000 cartridge
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a6ac0281d1a8192478248d8f86c2d784, type: 3}

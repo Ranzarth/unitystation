@@ -12,12 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed39dc88e7534c645afa762455e39ec2, type: 3}
   m_Name: Plasma
   m_EditorClassIdentifier: 
+  foreverID: Plasma
+  PreviewSprite: {fileID: 11400000, guid: e38b4751f8540f24cbaa8784947a0ae4, type: 2}
   MolarHeatCapacity: 200
   MolarMass: 40
   Name: Plasma
-  HasOverlay: 1
   MinMolesToSee: 0.4
-  TileName: Plasma
-  OverlayType: 7
+  OverlayTile: {fileID: 11400000, guid: da735be87cb688644b23b68a72ed58d1, type: 2}
+  CustomColour: 0
+  Colour: {r: 0, g: 0, b: 0, a: 0}
   FusionPower: 0
   AssociatedReagent: {fileID: 11400000, guid: 3f8ba0db83a8157ae8fbb3c4115580e7, type: 2}
+  ExportPrice: 0

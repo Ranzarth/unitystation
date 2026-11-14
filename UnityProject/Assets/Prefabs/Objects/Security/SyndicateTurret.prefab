@@ -5,17 +5,13 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1526276624429649764, guid: 24217cb8b2338a3479aaf8d32b727ed1,
         type: 3}
       propertyPath: m_Name
       value: SyndicateTurret
-      objectReference: {fileID: 0}
-    - target: {fileID: 1530055412931709374, guid: 24217cb8b2338a3479aaf8d32b727ed1,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1530055412931709374, guid: 24217cb8b2338a3479aaf8d32b727ed1,
         type: 3}
@@ -67,11 +63,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1586561495887623337, guid: 24217cb8b2338a3479aaf8d32b727ed1,
-        type: 3}
-      propertyPath: restriction
-      value: 71
-      objectReference: {fileID: 0}
     - target: {fileID: 1598609385433514140, guid: 24217cb8b2338a3479aaf8d32b727ed1,
         type: 3}
       propertyPath: turretType
@@ -90,7 +81,7 @@ PrefabInstance:
     - target: {fileID: 1598609385433514140, guid: 24217cb8b2338a3479aaf8d32b727ed1,
         type: 3}
       propertyPath: CheckWeaponAuthorisation
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1598609385433514140, guid: 24217cb8b2338a3479aaf8d32b727ed1,
         type: 3}
@@ -102,30 +93,48 @@ PrefabInstance:
       propertyPath: CheckUnidentifiedLifeSigns
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1598609385433514140, guid: 24217cb8b2338a3479aaf8d32b727ed1,
+    - target: {fileID: 2476844167198961965, guid: 24217cb8b2338a3479aaf8d32b727ed1,
         type: 3}
-      propertyPath: authorisedAccess.Array.size
+      propertyPath: parentID
+      value: 24217cb8b2338a3479aaf8d32b727ed1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2476844167198961965, guid: 24217cb8b2338a3479aaf8d32b727ed1,
+        type: 3}
+      propertyPath: foreverID
+      value: 792f6962da4a22448ace1005dd84941b
+      objectReference: {fileID: 0}
+    - target: {fileID: 2953874713575829681, guid: 24217cb8b2338a3479aaf8d32b727ed1,
+        type: 3}
+      propertyPath: requiredClearance.Array.size
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 1598609385433514140, guid: 24217cb8b2338a3479aaf8d32b727ed1,
+    - target: {fileID: 2953874713575829681, guid: 24217cb8b2338a3479aaf8d32b727ed1,
         type: 3}
-      propertyPath: authorisedAccess.Array.data[0]
-      value: 71
-      objectReference: {fileID: 0}
-    - target: {fileID: 1598609385433514140, guid: 24217cb8b2338a3479aaf8d32b727ed1,
-        type: 3}
-      propertyPath: weaponAuthorisation.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1598609385433514140, guid: 24217cb8b2338a3479aaf8d32b727ed1,
-        type: 3}
-      propertyPath: weaponAuthorisation.Array.data[0]
-      value: 71
+      propertyPath: 'requiredClearance.Array.data[0]'
+      value: 73
       objectReference: {fileID: 0}
     - target: {fileID: 6986135575158340102, guid: 24217cb8b2338a3479aaf8d32b727ed1,
         type: 3}
-      propertyPath: m_AssetId
-      value: 
+      propertyPath: _assetId
+      value: 1173354879
+      objectReference: {fileID: 0}
+    - target: {fileID: 7670922418104730739, guid: 24217cb8b2338a3479aaf8d32b727ed1,
+        type: 3}
+      propertyPath: requiredClearance.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7670922418104730739, guid: 24217cb8b2338a3479aaf8d32b727ed1,
+        type: 3}
+      propertyPath: 'requiredClearance.Array.data[0]'
+      value: 73
+      objectReference: {fileID: 0}
+    - target: {fileID: 8181793085312274516, guid: 24217cb8b2338a3479aaf8d32b727ed1,
+        type: 3}
+      propertyPath: initialName
+      value: turret
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 24217cb8b2338a3479aaf8d32b727ed1, type: 3}

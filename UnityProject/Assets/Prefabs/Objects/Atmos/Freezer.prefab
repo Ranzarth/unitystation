@@ -1,122 +1,11 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &3138898577607490365
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 870856855002174042}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5aeab22facc7c0949914afac2a41267f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  spritehandler: {fileID: 5639939868946462848}
-  SpawnOnDeconstruct: {fileID: 0}
-  registerTile: {fileID: 8415061280567833106}
-  pipeData:
-    PipeLayer: 1
-    Connections:
-      Directions:
-      - Bool: 0
-        pipeType: 1
-        PortType: 0
-        flagLogic: 0
-      - Bool: 0
-        pipeType: 1
-        PortType: 0
-        flagLogic: 0
-      - Bool: 1
-        pipeType: 1
-        PortType: 3
-        flagLogic: 0
-      - Bool: 0
-        pipeType: 1
-        PortType: 0
-        flagLogic: 0
-    CustomLogic: 0
-    NetCompatible: 0
-    mixAndVolume:
-      mix:
-        temperature: 273.15
-        reagents:
-          m_keys: []
-          m_values: []
-        reagentKeys: []
-      gasMix:
-        GasData:
-          GasesArray: []
-        Pressure: 0
-        Volume: 2.5
-        Temperature: 293.15
-    ConnectedPipes: []
-    Outputs: []
-    MonoPipe: {fileID: 0}
-  Colour: {r: 1, g: 1, b: 1, a: 1}
-  initalMinTemperature: 170
-  initalMaxTemperature: 293.15
-  targetTemperature: 298.15
-  idleWattUsage: 100
-  type: 0
---- !u!114 &3159857419528874276
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 870856855002174042}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a1123c5b215682469419ae00eb87e39, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  prefabChildrenOrientation: 3
-  forceChildrenOpposite: 1
---- !u!114 &3401071716471494502
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 870856855002174042}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e74a412989a7a314db7c2d297a269da9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isChangingSO: 0
-  indexDown: 0
-  indexUp: 1
-  indexRight: 2
-  indexLeft: 3
-  spriteHandlers:
-  - {fileID: 5639939868946462848}
---- !u!114 &6016527632689788989
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 870856855002174042}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 819809cff2481914d883a6e1fefb4edd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  syncMode: 0
-  syncInterval: 0.1
-  InitialDirection: 3
-  onEditorDirectionChange:
-    m_PersistentCalls:
-      m_Calls: []
-  ChangeDirectionWithMatrix: 1
-  DisableSyncing: 0
 --- !u!1001 &4970604433915404306
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 774114496202381458, guid: 8e4c205a853b5d44bb1b793530feaefe,
@@ -137,13 +26,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 774114496202381458, guid: 8e4c205a853b5d44bb1b793530feaefe,
         type: 3}
-      propertyPath: SubCatalogue.Array.data[0]
+      propertyPath: 'SubCatalogue.Array.data[0]'
       value: 
       objectReference: {fileID: 11400000, guid: 7b60e624c76e3db49a8c55ea210ec4e6,
         type: 2}
     - target: {fileID: 774114496202381458, guid: 8e4c205a853b5d44bb1b793530feaefe,
         type: 3}
-      propertyPath: SubCatalogue.Array.data[1]
+      propertyPath: 'SubCatalogue.Array.data[1]'
       value: 
       objectReference: {fileID: 11400000, guid: 9acd88ac94dc4dd46ae1bcff0e001963,
         type: 2}
@@ -214,8 +103,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4409890578738218794, guid: 8e4c205a853b5d44bb1b793530feaefe,
         type: 3}
+      propertyPath: _assetId
+      value: 3632866260
+      objectReference: {fileID: 0}
+    - target: {fileID: 4409890578738218794, guid: 8e4c205a853b5d44bb1b793530feaefe,
+        type: 3}
       propertyPath: m_AssetId
-      value: 
+      value: 17045812469b8c649babb925c6965066
       objectReference: {fileID: 0}
     - target: {fileID: 5255355345183453768, guid: 8e4c205a853b5d44bb1b793530feaefe,
         type: 3}
@@ -291,7 +185,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 9549affdc09f82f4790d437aca170d58,
+      objectReference: {fileID: 21300002, guid: 9549affdc09f82f4790d437aca170d58,
         type: 3}
     - target: {fileID: 5444563050315388511, guid: 8e4c205a853b5d44bb1b793530feaefe,
         type: 3}
@@ -328,7 +222,7 @@ PrefabInstance:
     - target: {fileID: 8325943561578412539, guid: 8e4c205a853b5d44bb1b793530feaefe,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.9999619
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8325943561578412539, guid: 8e4c205a853b5d44bb1b793530feaefe,
         type: 3}
@@ -338,7 +232,7 @@ PrefabInstance:
     - target: {fileID: 8325943561578412539, guid: 8e4c205a853b5d44bb1b793530feaefe,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.008726535
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 8325943561578412539, guid: 8e4c205a853b5d44bb1b793530feaefe,
         type: 3}
@@ -355,7 +249,28 @@ PrefabInstance:
       propertyPath: wattusage
       value: 100
       objectReference: {fileID: 0}
+    - target: {fileID: 9196119485141273601, guid: 8e4c205a853b5d44bb1b793530feaefe,
+        type: 3}
+      propertyPath: parentID
+      value: 8e4c205a853b5d44bb1b793530feaefe
+      objectReference: {fileID: 0}
+    - target: {fileID: 9196119485141273601, guid: 8e4c205a853b5d44bb1b793530feaefe,
+        type: 3}
+      propertyPath: foreverID
+      value: 17045812469b8c649babb925c6965066
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5255355345183453768, guid: 8e4c205a853b5d44bb1b793530feaefe,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3138898577607490365}
+    - targetCorrespondingSourceObject: {fileID: 5255355345183453768, guid: 8e4c205a853b5d44bb1b793530feaefe,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6016527632689788989}
   m_SourcePrefab: {fileID: 100100000, guid: 8e4c205a853b5d44bb1b793530feaefe, type: 3}
 --- !u!1 &870856855002174042 stripped
 GameObject:
@@ -363,18 +278,97 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 4970604433915404306}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &8415061280567833106 stripped
+--- !u!114 &3138898577607490365
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3473242624798872064, guid: 8e4c205a853b5d44bb1b793530feaefe,
-    type: 3}
-  m_PrefabInstance: {fileID: 4970604433915404306}
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 870856855002174042}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a459a0316cc4d5b87d046f28dc136c8, type: 3}
+  m_Script: {fileID: 11500000, guid: 5aeab22facc7c0949914afac2a41267f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  syncDirection: 0
+  syncMode: 0
+  syncInterval: 0.1
+  spritehandler: {fileID: 5639939868946462848}
+  SpawnOnDeconstruct: {fileID: 0}
+  registerTile: {fileID: 8415061280567833106}
+  pipeData:
+    PipeLayer: 1
+    Connections:
+      Directions:
+      - Bool: 1
+        MappedNeeded: 1
+        pipeType: 1
+        PortType: 3
+        flagLogic: 0
+      - Bool: 0
+        MappedNeeded: 0
+        pipeType: 1
+        PortType: 0
+        flagLogic: 0
+      - Bool: 0
+        MappedNeeded: 0
+        pipeType: 1
+        PortType: 0
+        flagLogic: 0
+      - Bool: 0
+        MappedNeeded: 0
+        pipeType: 1
+        PortType: 0
+        flagLogic: 0
+    CustomLogic: 0
+    NetCompatible: 0
+    SelfSufficient: 0
+    mixAndVolume:
+      mix:
+        temperature: 273.15
+        reagents:
+          m_keys: []
+          m_values: []
+        reagentKeys: []
+      gasMix:
+        GasData:
+          GasesArray: []
+        pressure: 0
+        Volume: 2.5
+        temperature: 293.15
+    MonoPipe: {fileID: 0}
+  Colour: {r: 1, g: 1, b: 1, a: 1}
+  spawnedFromItem: 1
+  directional: {fileID: 0}
+  initalMinTemperature: 170
+  initalMaxTemperature: 293.15
+  targetTemperature: 298.15
+  idleWattUsage: 100
+  type: 0
+--- !u!114 &6016527632689788989
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 870856855002174042}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 819809cff2481914d883a6e1fefb4edd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  syncDirection: 0
+  syncMode: 0
+  syncInterval: 0.1
+  MethodRotation: 3
+  ChangeSprites: 1
+  isChangingSO: 0
+  CurrentDirection: 1
+  SynchroniseCurrentDirection: 1
+  IgnoreServerUpdatesIfLocalPlayer: 0
+  MatrixRotateUpdate: 1
+  IsAtmosphericDevice: 1
+  doNotResetOtherSpriteOptions: 0
 --- !u!210 &2511276323556255466 stripped
 SortingGroup:
   m_CorrespondingSourceObject: {fileID: 7359720613216847608, guid: 8e4c205a853b5d44bb1b793530feaefe,
@@ -391,5 +385,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: db025f3627a11af4fb670ccd1e2188ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &8415061280567833106 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3473242624798872064, guid: 8e4c205a853b5d44bb1b793530feaefe,
+    type: 3}
+  m_PrefabInstance: {fileID: 4970604433915404306}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 870856855002174042}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a459a0316cc4d5b87d046f28dc136c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

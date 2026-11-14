@@ -12,13 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed39dc88e7534c645afa762455e39ec2, type: 3}
   m_Name: Stimulum
   m_EditorClassIdentifier: 
+  foreverID: Stimulum
+  PreviewSprite: {fileID: 11400000, guid: d1556264a88994640b4c761a89da98af, type: 2}
   MolarHeatCapacity: 5
   MolarMass: 44.01
   Name: Stimulum
-  HasOverlay: 0
   MinMolesToSee: 0.4
-  TileName: NONE
-  OverlayType: 0
+  OverlayTile: {fileID: 0}
+  CustomColour: 0
+  Colour: {r: 0, g: 0, b: 0, a: 0}
   FusionPower: 7
   AssociatedReagent: {fileID: 11400000, guid: 61cf9c4a2f0e886ea912d0c18998db21, type: 2}
   ExportPrice: 100

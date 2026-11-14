@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce108c02d022d1940bc023ceca025d81, type: 3}
   m_Name: TrashOrGrille
   m_EditorClassIdentifier: 
+  foreverID: b51ec59e44a7ca44883947bdffa98e04
   pool:
-  - prefab: {fileID: 7376449702682419346, guid: e7a19fe59d5bcfe49a1d885d7fedab6e,
+  - prefab: {fileID: 7464013431319352825, guid: df8a321c3837a6845bcc2a4c96517a93,
       type: 3}
     maxAmount: 1
     probability: 50
@@ -65,8 +66,9 @@ MonoBehaviour:
   - prefab: {fileID: 7161211515976270597, guid: fe372e5eb4602664ba2bf856c4ffc47f,
       type: 3}
     maxAmount: 1
-    probability: 80
+    probability: 50
   - prefab: {fileID: 7276965238237120900, guid: 7dfd431fc77359d47bd657505877f763,
       type: 3}
     maxAmount: 1
-    probability: 80
+    probability: 50
+  RequiredTrait: {fileID: 0}

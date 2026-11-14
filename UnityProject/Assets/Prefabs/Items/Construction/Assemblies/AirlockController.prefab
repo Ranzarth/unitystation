@@ -5,17 +5,23 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 582715337527111107, guid: ce5401e036c8e774db7877d3328c7c22,
+        type: 3}
+      propertyPath: initialName
+      value: airlock controller
+      objectReference: {fileID: 0}
     - target: {fileID: 582715337527111107, guid: ce5401e036c8e774db7877d3328c7c22,
         type: 3}
       propertyPath: initialDescription
       value: A small electronic device able to control an airlock remotely.
       objectReference: {fileID: 0}
-    - target: {fileID: 582715337527111107, guid: ce5401e036c8e774db7877d3328c7c22,
+    - target: {fileID: 1074143794360762325, guid: ce5401e036c8e774db7877d3328c7c22,
         type: 3}
-      propertyPath: initialName
-      value: airlock controller
+      propertyPath: m_RootOrder
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1074143794360762325, guid: ce5401e036c8e774db7877d3328c7c22,
         type: 3}
@@ -34,6 +40,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1074143794360762325, guid: ce5401e036c8e774db7877d3328c7c22,
         type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1074143794360762325, guid: ce5401e036c8e774db7877d3328c7c22,
+        type: 3}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
@@ -46,16 +57,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1074143794360762325, guid: ce5401e036c8e774db7877d3328c7c22,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1074143794360762325, guid: ce5401e036c8e774db7877d3328c7c22,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1074143794360762325, guid: ce5401e036c8e774db7877d3328c7c22,
         type: 3}
@@ -79,8 +80,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1112274411039915797, guid: ce5401e036c8e774db7877d3328c7c22,
         type: 3}
+      propertyPath: _assetId
+      value: 3605916630
+      objectReference: {fileID: 0}
+    - target: {fileID: 1112274411039915797, guid: ce5401e036c8e774db7877d3328c7c22,
+        type: 3}
       propertyPath: m_AssetId
-      value: 
+      value: 6cb09d7f0f9c41b42b5de7211e240eda
+      objectReference: {fileID: 0}
+    - target: {fileID: 6215279554754236108, guid: ce5401e036c8e774db7877d3328c7c22,
+        type: 3}
+      propertyPath: parentID
+      value: ce5401e036c8e774db7877d3328c7c22
+      objectReference: {fileID: 0}
+    - target: {fileID: 6215279554754236108, guid: ce5401e036c8e774db7877d3328c7c22,
+        type: 3}
+      propertyPath: foreverID
+      value: 6cb09d7f0f9c41b42b5de7211e240eda
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ce5401e036c8e774db7877d3328c7c22, type: 3}

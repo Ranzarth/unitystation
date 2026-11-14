@@ -11,6 +11,6 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4ccfe138752d4b66bcb7c56a0c9769c7, type: 3}
   m_Name: Baton
-  m_EditorClassIdentifier: 
-  traitDescription: Baton items are usually used to stun or incapacitate humans with
-    varying degrees of lethality.
+  m_EditorClassIdentifier: Assets::US13.Items.Traits.ItemTrait
+  foreverID: 24756d74c34ac6542a18111b9c16cccb
+  traitDescription: Describe me!

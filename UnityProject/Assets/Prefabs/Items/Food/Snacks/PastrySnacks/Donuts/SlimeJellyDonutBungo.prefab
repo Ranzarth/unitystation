@@ -5,6 +5,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 2766957796462901653, guid: 76d59c6190d1ae34897c499233364f53,
@@ -13,6 +14,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: d69d21d87d03cd942ae6cc1575bf489a,
         type: 2}
+    - target: {fileID: 3141986036438142591, guid: 76d59c6190d1ae34897c499233364f53,
+        type: 3}
+      propertyPath: parentID
+      value: 76d59c6190d1ae34897c499233364f53
+      objectReference: {fileID: 0}
+    - target: {fileID: 3141986036438142591, guid: 76d59c6190d1ae34897c499233364f53,
+        type: 3}
+      propertyPath: foreverID
+      value: 16a47d67c518a0b428dfdc7d949b6a9e
+      objectReference: {fileID: 0}
     - target: {fileID: 8201582548592931150, guid: 76d59c6190d1ae34897c499233364f53,
         type: 3}
       propertyPath: m_Sprite
@@ -21,13 +32,23 @@ PrefabInstance:
         type: 3}
     - target: {fileID: 8265266241677541286, guid: 76d59c6190d1ae34897c499233364f53,
         type: 3}
+      propertyPath: _assetId
+      value: 1437007043
+      objectReference: {fileID: 0}
+    - target: {fileID: 8265266241677541286, guid: 76d59c6190d1ae34897c499233364f53,
+        type: 3}
       propertyPath: m_AssetId
-      value: 
+      value: 16a47d67c518a0b428dfdc7d949b6a9e
       objectReference: {fileID: 0}
     - target: {fileID: 8295676981224768018, guid: 76d59c6190d1ae34897c499233364f53,
         type: 3}
       propertyPath: m_Name
       value: SlimeJellyDonutBungo
+      objectReference: {fileID: 0}
+    - target: {fileID: 8301163681520942950, guid: 76d59c6190d1ae34897c499233364f53,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8301163681520942950, guid: 76d59c6190d1ae34897c499233364f53,
         type: 3}
@@ -46,6 +67,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8301163681520942950, guid: 76d59c6190d1ae34897c499233364f53,
         type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8301163681520942950, guid: 76d59c6190d1ae34897c499233364f53,
+        type: 3}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
@@ -58,16 +84,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8301163681520942950, guid: 76d59c6190d1ae34897c499233364f53,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8301163681520942950, guid: 76d59c6190d1ae34897c499233364f53,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8301163681520942950, guid: 76d59c6190d1ae34897c499233364f53,
         type: 3}
@@ -86,13 +102,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8488635447927663984, guid: 76d59c6190d1ae34897c499233364f53,
         type: 3}
-      propertyPath: initialDescription
-      value: Goes great with a mason jar of hippie's delight.
-      objectReference: {fileID: 0}
-    - target: {fileID: 8488635447927663984, guid: 76d59c6190d1ae34897c499233364f53,
-        type: 3}
       propertyPath: initialName
       value: bungo jelly donut
       objectReference: {fileID: 0}
+    - target: {fileID: 8488635447927663984, guid: 76d59c6190d1ae34897c499233364f53,
+        type: 3}
+      propertyPath: initialDescription
+      value: Goes great with a mason jar of hippie's delight.
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76d59c6190d1ae34897c499233364f53, type: 3}

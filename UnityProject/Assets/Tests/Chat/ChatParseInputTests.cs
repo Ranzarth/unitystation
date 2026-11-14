@@ -1,11 +1,10 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using NUnit.Framework;
-using UnityEngine;
-using UnityEngine.TestTools;
+﻿using NUnit.Framework;
+using US13.Core.Chat;
+using US13.Core.Chat.ChatContext;
 
 namespace Tests
 {
+	[Category(nameof(Chat))]
 	public class ChatParseInputTests
 	{
 		private class MockedChatContext : IChatInputContext
@@ -52,7 +51,7 @@ namespace Tests
 		[Test]
 		public void TestAllChannelsTag()
 		{
-			foreach (var pair in Chat.ChanelsTags)
+			foreach (var pair in Chat.ChannelsTags)
 			{
 				var msg = string.Format(":{0} Testing!", pair.Key);
 				CheckChannelAndClearMessage(msg, pair.Value, "Testing!");

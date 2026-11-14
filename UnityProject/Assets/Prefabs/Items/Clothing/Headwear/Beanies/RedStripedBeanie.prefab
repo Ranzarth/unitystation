@@ -5,20 +5,29 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3549479581640830887, guid: 9542c9504316c3845bbb5f541ec22cfb,
+        type: 3}
+      propertyPath: parentID
+      value: 9542c9504316c3845bbb5f541ec22cfb
+      objectReference: {fileID: 0}
+    - target: {fileID: 3549479581640830887, guid: 9542c9504316c3845bbb5f541ec22cfb,
+        type: 3}
+      propertyPath: foreverID
+      value: 9dd23cd6632343f42a2e2ad869d97aa8
+      objectReference: {fileID: 0}
     - target: {fileID: 3568482238077595727, guid: 9542c9504316c3845bbb5f541ec22cfb,
         type: 3}
       propertyPath: clothData
       value: 
-      objectReference: {fileID: 11400000, guid: 09d1749c67cf4104aaa490cfa33ed078,
-        type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 3568482238077595727, guid: 9542c9504316c3845bbb5f541ec22cfb,
         type: 3}
       propertyPath: currentClothData
       value: 
-      objectReference: {fileID: 11400000, guid: 09d1749c67cf4104aaa490cfa33ed078,
-        type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 3568482238077595727, guid: 9542c9504316c3845bbb5f541ec22cfb,
         type: 3}
       propertyPath: allClothingData.Array.size
@@ -26,7 +35,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3568482238077595727, guid: 9542c9504316c3845bbb5f541ec22cfb,
         type: 3}
-      propertyPath: allClothingData.Array.data[0]
+      propertyPath: 'allClothingData.Array.data[0]'
       value: 
       objectReference: {fileID: 11400000, guid: 7f4f04f2a3d8a1149930779b7d18f2e0,
         type: 2}
@@ -36,10 +45,21 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 68e66bb28195b3f46b9c319c966b14fe,
         type: 2}
+    - target: {fileID: 4377197623706982477, guid: 9542c9504316c3845bbb5f541ec22cfb,
+        type: 3}
+      propertyPath: InitialPresentSpriteSet
+      value: 
+      objectReference: {fileID: 11400000, guid: 68e66bb28195b3f46b9c319c966b14fe,
+        type: 2}
+    - target: {fileID: 7524605284256423550, guid: 9542c9504316c3845bbb5f541ec22cfb,
+        type: 3}
+      propertyPath: _assetId
+      value: 2927012022
+      objectReference: {fileID: 0}
     - target: {fileID: 7524605284256423550, guid: 9542c9504316c3845bbb5f541ec22cfb,
         type: 3}
       propertyPath: m_AssetId
-      value: 
+      value: 9dd23cd6632343f42a2e2ad869d97aa8
       objectReference: {fileID: 0}
     - target: {fileID: 7632320555952889534, guid: 9542c9504316c3845bbb5f541ec22cfb,
         type: 3}
@@ -113,4 +133,7 @@ PrefabInstance:
       value: red striped beanie
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9542c9504316c3845bbb5f541ec22cfb, type: 3}

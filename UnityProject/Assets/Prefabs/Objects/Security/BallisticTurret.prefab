@@ -5,17 +5,13 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1526276624429649764, guid: 24217cb8b2338a3479aaf8d32b727ed1,
         type: 3}
       propertyPath: m_Name
       value: BallisticTurret
-      objectReference: {fileID: 0}
-    - target: {fileID: 1530055412931709374, guid: 24217cb8b2338a3479aaf8d32b727ed1,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1530055412931709374, guid: 24217cb8b2338a3479aaf8d32b727ed1,
         type: 3}
@@ -75,19 +71,25 @@ PrefabInstance:
         type: 3}
     - target: {fileID: 1598609385433514140, guid: 24217cb8b2338a3479aaf8d32b727ed1,
         type: 3}
-      propertyPath: shootSpeed
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1598609385433514140, guid: 24217cb8b2338a3479aaf8d32b727ed1,
-        type: 3}
-      propertyPath: laserBullet
+      propertyPath: framePrefab
       value: 
-      objectReference: {fileID: 5981626483751922999, guid: 40ea4aea218be439eaf29f853612870c,
+      objectReference: {fileID: 5540702743783977154, guid: cc65c41ab29e1e04abcea72004ed4a33,
         type: 3}
     - target: {fileID: 1598609385433514140, guid: 24217cb8b2338a3479aaf8d32b727ed1,
         type: 3}
       propertyPath: ballisticTurret
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1598609385433514140, guid: 24217cb8b2338a3479aaf8d32b727ed1,
+        type: 3}
+      propertyPath: defaultProjectile
+      value: 
+      objectReference: {fileID: 5981626483751922999, guid: 40ea4aea218be439eaf29f853612870c,
+        type: 3}
+    - target: {fileID: 1598609385433514140, guid: 24217cb8b2338a3479aaf8d32b727ed1,
+        type: 3}
+      propertyPath: fireDelayMultiplier
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1607310524914379635, guid: 24217cb8b2338a3479aaf8d32b727ed1,
         type: 3}
@@ -95,6 +97,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300002, guid: f1c9606b32919594b99ee30062505f64,
         type: 3}
+    - target: {fileID: 2476844167198961965, guid: 24217cb8b2338a3479aaf8d32b727ed1,
+        type: 3}
+      propertyPath: parentID
+      value: 24217cb8b2338a3479aaf8d32b727ed1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2476844167198961965, guid: 24217cb8b2338a3479aaf8d32b727ed1,
+        type: 3}
+      propertyPath: foreverID
+      value: 12b87bdcedcba4b409b2cc945c27cbe7
+      objectReference: {fileID: 0}
     - target: {fileID: 3335787269516969175, guid: 24217cb8b2338a3479aaf8d32b727ed1,
         type: 3}
       propertyPath: m_LocalRotation.w
@@ -138,26 +150,37 @@ PrefabInstance:
         type: 2}
     - target: {fileID: 6304648460530296254, guid: 24217cb8b2338a3479aaf8d32b727ed1,
         type: 3}
-      propertyPath: SubCatalogue.Array.data[0]
+      propertyPath: initialVariantIndex
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6304648460530296254, guid: 24217cb8b2338a3479aaf8d32b727ed1,
+        type: 3}
+      propertyPath: InitialPresentSpriteSet
       value: 
       objectReference: {fileID: 11400000, guid: 7d7a326723f6ae4409bd5e7785523ee0,
         type: 2}
     - target: {fileID: 6304648460530296254, guid: 24217cb8b2338a3479aaf8d32b727ed1,
         type: 3}
-      propertyPath: SubCatalogue.Array.data[1]
+      propertyPath: 'SubCatalogue.Array.data[0]'
+      value: 
+      objectReference: {fileID: 11400000, guid: 7d7a326723f6ae4409bd5e7785523ee0,
+        type: 2}
+    - target: {fileID: 6304648460530296254, guid: 24217cb8b2338a3479aaf8d32b727ed1,
+        type: 3}
+      propertyPath: 'SubCatalogue.Array.data[1]'
       value: 
       objectReference: {fileID: 11400000, guid: 3d176355689c7944fa8b8a1907929927,
         type: 2}
     - target: {fileID: 6304648460530296254, guid: 24217cb8b2338a3479aaf8d32b727ed1,
         type: 3}
-      propertyPath: SubCatalogue.Array.data[2]
+      propertyPath: 'SubCatalogue.Array.data[2]'
       value: 
       objectReference: {fileID: 11400000, guid: c6527d911533c604caf65472aa819195,
         type: 2}
     - target: {fileID: 6986135575158340102, guid: 24217cb8b2338a3479aaf8d32b727ed1,
         type: 3}
-      propertyPath: m_AssetId
-      value: 
+      propertyPath: _assetId
+      value: 3305833282
       objectReference: {fileID: 0}
     - target: {fileID: 7993706743923889274, guid: 24217cb8b2338a3479aaf8d32b727ed1,
         type: 3}
@@ -171,4 +194,7 @@ PrefabInstance:
       value: Ballistic Turret
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 24217cb8b2338a3479aaf8d32b727ed1, type: 3}

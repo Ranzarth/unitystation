@@ -5,6 +5,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 59512926401929955, guid: 89d026ca3c185844194baeb3ff3b4d98,
@@ -88,6 +89,17 @@ PrefabInstance:
       propertyPath: initialDescription
       value: Sunglasses with a diagnostic HUD.
       objectReference: {fileID: 0}
+    - target: {fileID: 2888345019966124511, guid: 89d026ca3c185844194baeb3ff3b4d98,
+        type: 3}
+      propertyPath: relatedRecipes.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2888345019966124511, guid: 89d026ca3c185844194baeb3ff3b4d98,
+        type: 3}
+      propertyPath: relatedRecipes.Array.data[0].recipe
+      value: 
+      objectReference: {fileID: 11400000, guid: 83d33295cffaf5449882efbce8d30c18,
+        type: 2}
     - target: {fileID: 2987011942256334699, guid: 89d026ca3c185844194baeb3ff3b4d98,
         type: 3}
       propertyPath: initialName
@@ -103,6 +115,42 @@ PrefabInstance:
       propertyPath: hitSound.AssetAddress
       value: Assets/Prefabs/Effects/Tap.prefab
       objectReference: {fileID: 0}
+    - target: {fileID: 2987011942256334699, guid: 89d026ca3c185844194baeb3ff3b4d98,
+        type: 3}
+      propertyPath: itemSprites.SpriteLeftHand
+      value: 
+      objectReference: {fileID: 11400000, guid: 07f9813a4a487f746bbd5b5dc2169805,
+        type: 2}
+    - target: {fileID: 2987011942256334699, guid: 89d026ca3c185844194baeb3ff3b4d98,
+        type: 3}
+      propertyPath: itemSprites.SpriteRightHand
+      value: 
+      objectReference: {fileID: 11400000, guid: 95abdd5454b396049b0e148047ade153,
+        type: 2}
+    - target: {fileID: 2987011942256334699, guid: 89d026ca3c185844194baeb3ff3b4d98,
+        type: 3}
+      propertyPath: itemSprites.SpriteInventoryIcon
+      value: 
+      objectReference: {fileID: 11400000, guid: 809e45c78bead484db9f9ddb240490b5,
+        type: 2}
+    - target: {fileID: 2987011942256334699, guid: 89d026ca3c185844194baeb3ff3b4d98,
+        type: 3}
+      propertyPath: InitialitemSprites.SpriteLeftHand
+      value: 
+      objectReference: {fileID: 11400000, guid: 07f9813a4a487f746bbd5b5dc2169805,
+        type: 2}
+    - target: {fileID: 2987011942256334699, guid: 89d026ca3c185844194baeb3ff3b4d98,
+        type: 3}
+      propertyPath: InitialitemSprites.SpriteRightHand
+      value: 
+      objectReference: {fileID: 11400000, guid: 95abdd5454b396049b0e148047ade153,
+        type: 2}
+    - target: {fileID: 2987011942256334699, guid: 89d026ca3c185844194baeb3ff3b4d98,
+        type: 3}
+      propertyPath: InitialitemSprites.SpriteInventoryIcon
+      value: 
+      objectReference: {fileID: 11400000, guid: 809e45c78bead484db9f9ddb240490b5,
+        type: 2}
     - target: {fileID: 3273994478765017941, guid: 89d026ca3c185844194baeb3ff3b4d98,
         type: 3}
       propertyPath: m_Sprite
@@ -111,8 +159,13 @@ PrefabInstance:
         type: 3}
     - target: {fileID: 3317552745358689725, guid: 89d026ca3c185844194baeb3ff3b4d98,
         type: 3}
+      propertyPath: _assetId
+      value: 3698410441
+      objectReference: {fileID: 0}
+    - target: {fileID: 3317552745358689725, guid: 89d026ca3c185844194baeb3ff3b4d98,
+        type: 3}
       propertyPath: m_AssetId
-      value: 
+      value: fa58b85eb0d83874c99737ec86dc6af2
       objectReference: {fileID: 0}
     - target: {fileID: 3431291279286482953, guid: 89d026ca3c185844194baeb3ff3b4d98,
         type: 3}
@@ -139,6 +192,16 @@ PrefabInstance:
       propertyPath: clothData
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 8585229615259169892, guid: 89d026ca3c185844194baeb3ff3b4d98,
+        type: 3}
+      propertyPath: parentID
+      value: 89d026ca3c185844194baeb3ff3b4d98
+      objectReference: {fileID: 0}
+    - target: {fileID: 8585229615259169892, guid: 89d026ca3c185844194baeb3ff3b4d98,
+        type: 3}
+      propertyPath: foreverID
+      value: fa58b85eb0d83874c99737ec86dc6af2
+      objectReference: {fileID: 0}
     - target: {fileID: 8638853748845472652, guid: 89d026ca3c185844194baeb3ff3b4d98,
         type: 3}
       propertyPath: clothData
@@ -151,15 +214,35 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8638853748845472652, guid: 89d026ca3c185844194baeb3ff3b4d98,
         type: 3}
-      propertyPath: allClothingData.Array.data[0]
+      propertyPath: 'allClothingData.Array.data[0]'
       value: 
       objectReference: {fileID: 11400000, guid: 86aa2ef5294902b45beef4fb2bafe7e8,
         type: 2}
+    - target: {fileID: 8851959254138389390, guid: 89d026ca3c185844194baeb3ff3b4d98,
+        type: 3}
+      propertyPath: spriteRenderer
+      value: 
+      objectReference: {fileID: 7966965767118348341}
     - target: {fileID: 8851959254138389390, guid: 89d026ca3c185844194baeb3ff3b4d98,
         type: 3}
       propertyPath: PresentSpriteSet
       value: 
       objectReference: {fileID: 11400000, guid: 809e45c78bead484db9f9ddb240490b5,
         type: 2}
+    - target: {fileID: 8851959254138389390, guid: 89d026ca3c185844194baeb3ff3b4d98,
+        type: 3}
+      propertyPath: InitialPresentSpriteSet
+      value: 
+      objectReference: {fileID: 11400000, guid: 809e45c78bead484db9f9ddb240490b5,
+        type: 2}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 89d026ca3c185844194baeb3ff3b4d98, type: 3}
+--- !u!212 &7966965767118348341 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 3273994478765017941, guid: 89d026ca3c185844194baeb3ff3b4d98,
+    type: 3}
+  m_PrefabInstance: {fileID: 4899856498200963936}
+  m_PrefabAsset: {fileID: 0}

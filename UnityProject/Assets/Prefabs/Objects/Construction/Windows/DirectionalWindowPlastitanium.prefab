@@ -5,12 +5,24 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2029713811664008157, guid: c80393b4412660b41937e05425ceb921,
+        type: 3}
+      propertyPath: spriteRenderer
+      value: 
+      objectReference: {fileID: 707225928725273275}
+    - target: {fileID: 2029713811664008157, guid: c80393b4412660b41937e05425ceb921,
+        type: 3}
+      propertyPath: InitialPresentSpriteSet
+      value: 
+      objectReference: {fileID: 11400000, guid: 6010c93b0f7f1c996b26c835e5983ce2,
+        type: 2}
     - target: {fileID: 2708563353263609498, guid: c80393b4412660b41937e05425ceb921,
         type: 3}
-      propertyPath: initialIntegrity
-      value: 100
+      propertyPath: Armor.Bomb
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 2708563353263609498, guid: c80393b4412660b41937e05425ceb921,
         type: 3}
@@ -19,17 +31,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2708563353263609498, guid: c80393b4412660b41937e05425ceb921,
         type: 3}
-      propertyPath: Armor.Bomb
-      value: 50
+      propertyPath: damageDeflection
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 2708563353263609498, guid: c80393b4412660b41937e05425ceb921,
         type: 3}
-      propertyPath: damageDeflection
-      value: 11
+      propertyPath: initialIntegrity
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 3145725722567961701, guid: c80393b4412660b41937e05425ceb921,
+        type: 3}
+      propertyPath: _assetId
+      value: 2082007688
       objectReference: {fileID: 0}
     - target: {fileID: 3145725722567961701, guid: c80393b4412660b41937e05425ceb921,
         type: 3}
       propertyPath: m_AssetId
+      value: 422afccc119081a4fa895bc72e8ecd78
+      objectReference: {fileID: 0}
+    - target: {fileID: 4026046569720328804, guid: c80393b4412660b41937e05425ceb921,
+        type: 3}
+      propertyPath: rodsOnDestroy
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 4026046569720328804, guid: c80393b4412660b41937e05425ceb921,
@@ -40,35 +62,41 @@ PrefabInstance:
         type: 3}
     - target: {fileID: 4026046569720328804, guid: c80393b4412660b41937e05425ceb921,
         type: 3}
-      propertyPath: minCountOfRodsOnDestroy
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4026046569720328804, guid: c80393b4412660b41937e05425ceb921,
-        type: 3}
       propertyPath: maxCountOfRodsOnDestroy
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4026046569720328804, guid: c80393b4412660b41937e05425ceb921,
         type: 3}
-      propertyPath: rodsOnDestroy
+      propertyPath: minCountOfRodsOnDestroy
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4026046569720328804, guid: c80393b4412660b41937e05425ceb921,
+        type: 3}
+      propertyPath: onDeconstruct.Array.data[0].prefab
       value: 
+      objectReference: {fileID: 8355814339945545410, guid: c503cb08f774b9945ae4f8b39f4ce3d2,
+        type: 3}
+    - target: {fileID: 4242374203497104951, guid: c80393b4412660b41937e05425ceb921,
+        type: 3}
+      propertyPath: initialName
+      value: plastitanium window
       objectReference: {fileID: 0}
     - target: {fileID: 4242374203497104951, guid: c80393b4412660b41937e05425ceb921,
         type: 3}
       propertyPath: initialDescription
       value: A durable looking window made of an alloy of of plasma and titanium.
       objectReference: {fileID: 0}
-    - target: {fileID: 4242374203497104951, guid: c80393b4412660b41937e05425ceb921,
-        type: 3}
-      propertyPath: initialName
-      value: plastitanium window
-      objectReference: {fileID: 0}
     - target: {fileID: 6708729305040715024, guid: c80393b4412660b41937e05425ceb921,
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 66305a19e3614694f868c75a982e6b68,
+      objectReference: {fileID: -2077743162397565582, guid: 99b04077b9af32de3b23e9fd9060e402,
         type: 3}
+    - target: {fileID: 6804860837380333533, guid: c80393b4412660b41937e05425ceb921,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6804860837380333533, guid: c80393b4412660b41937e05425ceb921,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -82,31 +110,6 @@ PrefabInstance:
     - target: {fileID: 6804860837380333533, guid: c80393b4412660b41937e05425ceb921,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6804860837380333533, guid: c80393b4412660b41937e05425ceb921,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6804860837380333533, guid: c80393b4412660b41937e05425ceb921,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6804860837380333533, guid: c80393b4412660b41937e05425ceb921,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6804860837380333533, guid: c80393b4412660b41937e05425ceb921,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6804860837380333533, guid: c80393b4412660b41937e05425ceb921,
-        type: 3}
-      propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6804860837380333533, guid: c80393b4412660b41937e05425ceb921,
@@ -129,5 +132,24 @@ PrefabInstance:
       propertyPath: m_Name
       value: DirectionalWindowPlastitanium
       objectReference: {fileID: 0}
+    - target: {fileID: 7569395453688850254, guid: c80393b4412660b41937e05425ceb921,
+        type: 3}
+      propertyPath: parentID
+      value: c80393b4412660b41937e05425ceb921
+      objectReference: {fileID: 0}
+    - target: {fileID: 7569395453688850254, guid: c80393b4412660b41937e05425ceb921,
+        type: 3}
+      propertyPath: foreverID
+      value: 422afccc119081a4fa895bc72e8ecd78
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c80393b4412660b41937e05425ceb921, type: 3}
+--- !u!212 &707225928725273275 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 6708729305040715024, guid: c80393b4412660b41937e05425ceb921,
+    type: 3}
+  m_PrefabInstance: {fileID: 6109876155809654699}
+  m_PrefabAsset: {fileID: 0}

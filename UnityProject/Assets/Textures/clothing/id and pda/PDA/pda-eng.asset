@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d1de2691495b304e9843ac3335b626d, type: 3}
   m_Name: pda-eng
   m_EditorClassIdentifier: 
+  foreverID: c1f591f15878a4f4fa6337af59523d63
   Variance:
   - Frames:
     - sprite: {fileID: 8377381574614563249, guid: 2ee5ed9a34badcd4d8d586d7092b5a7a,
@@ -28,5 +29,4 @@ MonoBehaviour:
     - sprite: {fileID: 21300000, guid: c3fd932f54dbc104c8aae0fb5e3f9eeb, type: 3}
       secondDelay: 0
   IsPalette: 0
-  setID: 1937
   DisplayName: 

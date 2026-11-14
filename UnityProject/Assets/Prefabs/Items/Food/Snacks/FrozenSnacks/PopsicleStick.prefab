@@ -5,6 +5,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1011433845357754, guid: a7abba22164ce49f0bf9b9b219f39298, type: 3}
@@ -57,8 +58,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114738972662350094, guid: a7abba22164ce49f0bf9b9b219f39298,
         type: 3}
+      propertyPath: _assetId
+      value: 389428162
+      objectReference: {fileID: 0}
+    - target: {fileID: 114738972662350094, guid: a7abba22164ce49f0bf9b9b219f39298,
+        type: 3}
       propertyPath: m_AssetId
-      value: 
+      value: c922b01496840a04e87ee46fba6bf4bb
       objectReference: {fileID: 0}
     - target: {fileID: 212340400423555046, guid: a7abba22164ce49f0bf9b9b219f39298,
         type: 3}
@@ -69,6 +75,11 @@ PrefabInstance:
     - target: {fileID: 212340400423555046, guid: a7abba22164ce49f0bf9b9b219f39298,
         type: 3}
       propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 499351249353511896, guid: a7abba22164ce49f0bf9b9b219f39298,
+        type: 3}
+      propertyPath: exportCost
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 499351249353511896, guid: a7abba22164ce49f0bf9b9b219f39298,
@@ -94,6 +105,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 542829611148227948, guid: a7abba22164ce49f0bf9b9b219f39298,
         type: 3}
+      propertyPath: hasSimpleRelatedRecipe
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 542829611148227948, guid: a7abba22164ce49f0bf9b9b219f39298,
+        type: 3}
       propertyPath: relatedRecipes.Array.size
       value: 4
       objectReference: {fileID: 0}
@@ -101,25 +117,25 @@ PrefabInstance:
         type: 3}
       propertyPath: relatedRecipes.Array.data[0].recipe
       value: 
-      objectReference: {fileID: 11400000, guid: cc50c5a8c7dc3f14e8476afd1e448051,
+      objectReference: {fileID: 11400000, guid: 72244d700e9cc0d42b07563d34da4e3c,
         type: 2}
     - target: {fileID: 542829611148227948, guid: a7abba22164ce49f0bf9b9b219f39298,
         type: 3}
       propertyPath: relatedRecipes.Array.data[1].recipe
       value: 
-      objectReference: {fileID: 11400000, guid: 72244d700e9cc0d42b07563d34da4e3c,
+      objectReference: {fileID: 11400000, guid: 7150704d1885aca4aa80955cafd66194,
         type: 2}
     - target: {fileID: 542829611148227948, guid: a7abba22164ce49f0bf9b9b219f39298,
         type: 3}
       propertyPath: relatedRecipes.Array.data[2].recipe
       value: 
-      objectReference: {fileID: 11400000, guid: 7150704d1885aca4aa80955cafd66194,
+      objectReference: {fileID: 11400000, guid: fc8f772fa918a744cb99d20a74f63f06,
         type: 2}
     - target: {fileID: 542829611148227948, guid: a7abba22164ce49f0bf9b9b219f39298,
         type: 3}
       propertyPath: relatedRecipes.Array.data[3].recipe
       value: 
-      objectReference: {fileID: 11400000, guid: fc8f772fa918a744cb99d20a74f63f06,
+      objectReference: {fileID: 11400000, guid: cc50c5a8c7dc3f14e8476afd1e448051,
         type: 2}
     - target: {fileID: 6144467708197095229, guid: a7abba22164ce49f0bf9b9b219f39298,
         type: 3}
@@ -127,5 +143,18 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 852519f0bf0e77744b01df2768c1f7a0,
         type: 2}
+    - target: {fileID: 6393191727481188567, guid: a7abba22164ce49f0bf9b9b219f39298,
+        type: 3}
+      propertyPath: parentID
+      value: a7abba22164ce49f0bf9b9b219f39298
+      objectReference: {fileID: 0}
+    - target: {fileID: 6393191727481188567, guid: a7abba22164ce49f0bf9b9b219f39298,
+        type: 3}
+      propertyPath: foreverID
+      value: c922b01496840a04e87ee46fba6bf4bb
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a7abba22164ce49f0bf9b9b219f39298, type: 3}

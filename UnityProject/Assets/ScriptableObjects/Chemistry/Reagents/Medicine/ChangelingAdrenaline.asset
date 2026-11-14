@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1916b10721f72c927a14093e8210cb3f, type: 3}
   m_Name: ChangelingAdrenaline
   m_EditorClassIdentifier: 
+  foreverID: Changeling Adrenaline
   displayName: Changeling Adrenaline
   description: Reduces the duration of unconciousness, knockdown and stuns. Restores
     stamina, but deals toxin damage when overdosed.
   color: {r: 0.78431374, g: 0.64705884, b: 0.8627451, a: 1}
   state: 0
   heatDensity: 5
-  indexInSingleton: 243
+  indexInSingleton: 284

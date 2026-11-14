@@ -12,130 +12,159 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eaf6da0a52cc4214b1d4798d9a210177, type: 3}
   m_Name: AdminMusic
   m_EditorClassIdentifier: 
+  foreverID: 8f0c7210e66131a4980538619cd9d9cc
   addressableAudioSource:
-  - SetLoadSetting: 0
-    AssetAddress: Assets/Prefabs/Music/AdminMusic Honkman.prefab
+  - AssetAddress: Assets/Prefabs/Music/AdminMusic Honkman.prefab
     AssetReference:
       m_AssetGUID: 
       m_SubObjectName: 
+      m_SubObjectGUID: 
       m_SubObjectType: 
-  - SetLoadSetting: 0
-    AssetAddress: Assets/Prefabs/Music/AdminMusic Honkers.prefab
+      m_EditorAssetChanged: 0
+  - AssetAddress: Assets/Prefabs/Music/AdminMusic Honkers.prefab
     AssetReference:
       m_AssetGUID: 
       m_SubObjectName: 
+      m_SubObjectGUID: 
       m_SubObjectType: 
-  - SetLoadSetting: 0
-    AssetAddress: Assets/Prefabs/Music/AdminMusic CometHaley.prefab
+      m_EditorAssetChanged: 0
+  - AssetAddress: Assets/Prefabs/Music/AdminMusic CometHaley.prefab
     AssetReference:
       m_AssetGUID: 
       m_SubObjectName: 
+      m_SubObjectGUID: 
       m_SubObjectType: 
-  - SetLoadSetting: 0
-    AssetAddress: Assets/Prefabs/Music/AdminMusic TheSettler.prefab
+      m_EditorAssetChanged: 0
+  - AssetAddress: Assets/Prefabs/Music/AdminMusic TheSettler.prefab
     AssetReference:
       m_AssetGUID: 
       m_SubObjectName: 
+      m_SubObjectGUID: 
       m_SubObjectType: 
-  - SetLoadSetting: 0
-    AssetAddress: Assets/Prefabs/Music/AdminMusic EndlessSpace.prefab
+      m_EditorAssetChanged: 0
+  - AssetAddress: Assets/Prefabs/Music/AdminMusic EndlessSpace.prefab
     AssetReference:
       m_AssetGUID: 
       m_SubObjectName: 
+      m_SubObjectGUID: 
       m_SubObjectType: 
-  - SetLoadSetting: 0
-    AssetAddress: Assets/Prefabs/Music/AdminMusic SilentHonk2.prefab
+      m_EditorAssetChanged: 0
+  - AssetAddress: Assets/Prefabs/Music/AdminMusic SilentHonk2.prefab
     AssetReference:
       m_AssetGUID: 
       m_SubObjectName: 
+      m_SubObjectGUID: 
       m_SubObjectType: 
-  - SetLoadSetting: 0
-    AssetAddress: Assets/Prefabs/Music/AdminMusic Miniboss.prefab
+      m_EditorAssetChanged: 0
+  - AssetAddress: Assets/Prefabs/Music/AdminMusic Miniboss.prefab
     AssetReference:
       m_AssetGUID: 
       m_SubObjectName: 
+      m_SubObjectGUID: 
       m_SubObjectType: 
-  - SetLoadSetting: 0
-    AssetAddress: Assets/Prefabs/Music/AdminMusic TheChallenge.prefab
+      m_EditorAssetChanged: 0
+  - AssetAddress: Assets/Prefabs/Music/AdminMusic TheChallenge.prefab
     AssetReference:
       m_AssetGUID: 
       m_SubObjectName: 
+      m_SubObjectGUID: 
       m_SubObjectType: 
-  - SetLoadSetting: 0
-    AssetAddress: Assets/Prefabs/Music/AdminMusic TinTinOnTheMoonHippie.prefab
+      m_EditorAssetChanged: 0
+  - AssetAddress: Assets/Prefabs/Music/AdminMusic TinTinOnTheMoonHippie.prefab
     AssetReference:
       m_AssetGUID: 
       m_SubObjectName: 
+      m_SubObjectGUID: 
       m_SubObjectType: 
-  - SetLoadSetting: 0
-    AssetAddress: Assets/Prefabs/Music/AdminMusic AnotherDrone.prefab
+      m_EditorAssetChanged: 0
+  - AssetAddress: Assets/Prefabs/Music/AdminMusic AnotherDrone.prefab
     AssetReference:
       m_AssetGUID: 
       m_SubObjectName: 
+      m_SubObjectGUID: 
       m_SubObjectType: 
-  - SetLoadSetting: 0
-    AssetAddress: Assets/Prefabs/Music/AdminMusic Title02.prefab
+      m_EditorAssetChanged: 0
+  - AssetAddress: Assets/Prefabs/Music/AdminMusic Title02.prefab
     AssetReference:
       m_AssetGUID: 
       m_SubObjectName: 
+      m_SubObjectGUID: 
       m_SubObjectType: 
-  - SetLoadSetting: 0
-    AssetAddress: Assets/Prefabs/Music/AdminMusic Title01.prefab
+      m_EditorAssetChanged: 0
+  - AssetAddress: Assets/Prefabs/Music/AdminMusic Title01.prefab
     AssetReference:
       m_AssetGUID: 
       m_SubObjectName: 
+      m_SubObjectGUID: 
       m_SubObjectType: 
-  - SetLoadSetting: 0
-    AssetAddress: Assets/Prefabs/Music/AdminMusic SpaceAhole.prefab
+      m_EditorAssetChanged: 0
+  - AssetAddress: Assets/Prefabs/Music/AdminMusic SpaceAhole.prefab
     AssetReference:
       m_AssetGUID: 
       m_SubObjectName: 
+      m_SubObjectGUID: 
       m_SubObjectType: 
-  - SetLoadSetting: 0
-    AssetAddress: Assets/Prefabs/Music/AdminMusic Title03.prefab
+      m_EditorAssetChanged: 0
+  - AssetAddress: Assets/Prefabs/Music/AdminMusic Title03.prefab
     AssetReference:
       m_AssetGUID: 
       m_SubObjectName: 
+      m_SubObjectGUID: 
       m_SubObjectType: 
-  - SetLoadSetting: 0
-    AssetAddress: Assets/Prefabs/Music/AdminMusic TheWizard.prefab
+      m_EditorAssetChanged: 0
+  - AssetAddress: Assets/Prefabs/Music/AdminMusic TheWizard.prefab
     AssetReference:
       m_AssetGUID: 
       m_SubObjectName: 
+      m_SubObjectGUID: 
       m_SubObjectType: 
-  - SetLoadSetting: 0
-    AssetAddress: Assets/Prefabs/Music/AdminMusic ClownTitle.prefab
+      m_EditorAssetChanged: 0
+  - AssetAddress: Assets/Prefabs/Music/AdminMusic ClownTitle.prefab
     AssetReference:
       m_AssetGUID: 
       m_SubObjectName: 
+      m_SubObjectGUID: 
       m_SubObjectType: 
-  - SetLoadSetting: 0
-    AssetAddress: Assets/Prefabs/Music/AdminMusic Thunderdome.prefab
+      m_EditorAssetChanged: 0
+  - AssetAddress: Assets/Prefabs/Music/AdminMusic Thunderdome.prefab
     AssetReference:
       m_AssetGUID: 
       m_SubObjectName: 
+      m_SubObjectGUID: 
       m_SubObjectType: 
-  - SetLoadSetting: 0
-    AssetAddress: Assets/Prefabs/Music/AdminMusic Clownman.prefab
+      m_EditorAssetChanged: 0
+  - AssetAddress: Assets/Prefabs/Music/AdminMusic Clownman.prefab
     AssetReference:
       m_AssetGUID: 
       m_SubObjectName: 
+      m_SubObjectGUID: 
       m_SubObjectType: 
-  - SetLoadSetting: 0
-    AssetAddress: Assets/Prefabs/Music/AdminMusic JourneyOfTheSorcererHippie.prefab
+      m_EditorAssetChanged: 0
+  - AssetAddress: Assets/Prefabs/Music/AdminMusic JourneyOfTheSorcererHippie.prefab
     AssetReference:
       m_AssetGUID: 
       m_SubObjectName: 
+      m_SubObjectGUID: 
       m_SubObjectType: 
-  - SetLoadSetting: 0
-    AssetAddress: Assets/Prefabs/Music/AdminMusic SpaceManatees.prefab
+      m_EditorAssetChanged: 0
+  - AssetAddress: Assets/Prefabs/Music/AdminMusic SpaceManatees.prefab
     AssetReference:
       m_AssetGUID: 
       m_SubObjectName: 
+      m_SubObjectGUID: 
       m_SubObjectType: 
-  - SetLoadSetting: 0
-    AssetAddress: Assets/Prefabs/Music/AdminMusic Marhaba.prefab
+      m_EditorAssetChanged: 0
+  - AssetAddress: Assets/Prefabs/Music/AdminMusic Marhaba.prefab
     AssetReference:
       m_AssetGUID: 
       m_SubObjectName: 
+      m_SubObjectGUID: 
       m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  - AssetAddress: Assets/Prefabs/Highlander/HighlanderDelayd.prefab
+    AssetReference:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectGUID: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0

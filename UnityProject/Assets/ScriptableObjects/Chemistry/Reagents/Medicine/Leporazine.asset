@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1916b10721f72c927a14093e8210cb3f, type: 3}
   m_Name: Leporazine
   m_EditorClassIdentifier: 
+  foreverID: Leporazine
   displayName: Leporazine
   description: Leporazine will effectively regulate a patient's body temperature,
     ensuring it never leaves safe levels.
   color: {r: 0.78431374, g: 0.64705884, b: 0.8627451, a: 1}
   state: 0
   heatDensity: 5
-  indexInSingleton: 261
+  indexInSingleton: 302

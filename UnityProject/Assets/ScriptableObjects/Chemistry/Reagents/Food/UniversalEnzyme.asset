@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1916b10721f72c927a14093e8210cb3f, type: 3}
   m_Name: UniversalEnzyme
   m_EditorClassIdentifier: 
+  foreverID: Universal Enzyme
   displayName: Universal Enzyme
   description: A universal enzyme used in the preperation of certain chemicals and
     foods.
   color: {r: 0.21176471, g: 0.36862746, b: 0.1882353, a: 1}
   state: 0
   heatDensity: 5
-  indexInSingleton: 232
+  indexInSingleton: 271

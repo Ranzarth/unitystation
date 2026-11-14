@@ -12,10 +12,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1916b10721f72c927a14093e8210cb3f, type: 3}
   m_Name: Water
   m_EditorClassIdentifier: 
+  foreverID: Water
   displayName: Water
   description: An ubiquitous chemical substance that is composed of hydrogen and
     oxygen.
   color: {r: 0.75956744, g: 0.9428339, b: 0.9528302, a: 0.23529412}
   state: 1
   heatDensity: 5
-  indexInSingleton: 415
+  indexInSingleton: 462
+  OnSplatEffects:
+  - rid: 3457065890737553465
+  - rid: 3457065890737553467
+  references:
+    version: 2
+    RefIds:
+    - rid: 3457065890737553465
+      type: {class: MakeSlipperyOnSplat, ns: US13.ChemistryComponents.SplatEffects,
+        asm: Assets}
+      data:
+        isSuperSlippery: 0
+        canDryUp: 0
+    - rid: 3457065890737553467
+      type: {class: ExtinguishOnSplat, ns: US13.ChemistryComponents.SplatEffects,
+        asm: Assets}
+      data: 

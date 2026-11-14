@@ -104,10 +104,10 @@ MonoBehaviour:
     Capacity: 10
   - Prefab: {fileID: 3848343717668343118, guid: 1ff9dd0fc4df49c4e8e6201312a8d2f5,
       type: 3}
-    Capacity: 10
+    Capacity: 5
   - Prefab: {fileID: 7402314390353290826, guid: 3200b53a4da1d9649b0b9e845bebb3a5,
       type: 3}
-    Capacity: 10
+    Capacity: 5
   - Prefab: {fileID: 3096221855463419241, guid: 35e7ff71208f75e49a64beb32bbf5caf,
       type: 3}
     Capacity: 10
@@ -209,3 +209,42 @@ MonoBehaviour:
   - Prefab: {fileID: 3848044458048423802, guid: fad2d9fb6ebaa1345a8c30814120e083,
       type: 3}
     Capacity: 5
+  - Prefab: {fileID: 4614003058646721655, guid: d44efaca974d78c40b9c6d0175268c38,
+      type: 3}
+    Capacity: 10
+  - Prefab: {fileID: 923152762474511029, guid: 2a837b38b7ec15e49946b3e3f1f4999b, type: 3}
+    Capacity: 10
+  - Prefab: {fileID: 1554563919395600313, guid: f1c963e8cc7f45d4ab2f17241a0a772d,
+      type: 3}
+    Capacity: 10
+  - Prefab: {fileID: 2380364037288695883, guid: cb3ddad4a5b281b479497387dc7e2b0c,
+      type: 3}
+    Capacity: 15
+  - Prefab: {fileID: 508509301497134489, guid: 2d4088a149c08cf478f1f32077456e49, type: 3}
+    Capacity: 10
+  - Prefab: {fileID: 5996511364925663208, guid: c1e78413dfa7c5d4ebb396bb780027c1,
+      type: 3}
+    Capacity: 10
+  - Prefab: {fileID: 7449957587207192396, guid: 89514fde7c137dd43aa764f47c4249dd,
+      type: 3}
+    Capacity: 5
+  - Prefab: {fileID: 7936677138902856662, guid: 1ff8663c972bc8e40be0ab2b2a3c81d0,
+      type: 3}
+    Capacity: 5
+  - Prefab: {fileID: 4069840708343450737, guid: 2bf1002b95a417a4bbfce5dcca9f6d11,
+      type: 3}
+    Capacity: 5
+  - Prefab: {fileID: 4470397135652523633, guid: 7a522247614f57346afd5c48e3f0060c,
+      type: 3}
+    Capacity: 20
+  - Prefab: {fileID: 2393780574223579426, guid: f3ca4389d5306d443866dc4481780256,
+      type: 3}
+    Capacity: 20
+  - Prefab: {fileID: 1762630675659964, guid: 715614a08d7f9514aab57170abfe56ef, type: 3}
+    Capacity: 555
+  - Prefab: {fileID: 5028489969333880017, guid: 2f451cbeaacdd124785b02068a26244d,
+      type: 3}
+    Capacity: 5
+  - Prefab: {fileID: 8651540215691409623, guid: 8e1f028b9d7af39449e0065209b411c2,
+      type: 3}
+    Capacity: 10

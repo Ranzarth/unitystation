@@ -12,10 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1916b10721f72c927a14093e8210cb3f, type: 3}
   m_Name: Mercury
   m_EditorClassIdentifier: 
+  foreverID: Mercury
   displayName: Mercury
   description: A curious metal that's a liquid at room temperature. Neurodegenerative
     and very bad for the mind.
   color: {r: 0.28235295, g: 0.28235295, b: 0.28235295, a: 1}
-  state: 0
+  state: 1
   heatDensity: 5
-  indexInSingleton: 355
+  indexInSingleton: 399
+  OnSplatEffects: []
+  references:
+    version: 2
+    RefIds: []

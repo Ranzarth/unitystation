@@ -5,12 +5,18 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 2909197017712554513, guid: db6925c2066e4fb49a396bacd6dc7552,
         type: 3}
+      propertyPath: _assetId
+      value: 1122228508
+      objectReference: {fileID: 0}
+    - target: {fileID: 2909197017712554513, guid: db6925c2066e4fb49a396bacd6dc7552,
+        type: 3}
       propertyPath: m_AssetId
-      value: 
+      value: 87753f1b643066f4a8ee45b19f6c2712
       objectReference: {fileID: 0}
     - target: {fileID: 3011710637427380133, guid: db6925c2066e4fb49a396bacd6dc7552,
         type: 3}
@@ -88,21 +94,29 @@ PrefabInstance:
       propertyPath: initialDescription
       value: For those tired of boring old jeans. Relive the passion of your youth!
       objectReference: {fileID: 0}
+    - target: {fileID: 8174322744686822344, guid: db6925c2066e4fb49a396bacd6dc7552,
+        type: 3}
+      propertyPath: parentID
+      value: db6925c2066e4fb49a396bacd6dc7552
+      objectReference: {fileID: 0}
+    - target: {fileID: 8174322744686822344, guid: db6925c2066e4fb49a396bacd6dc7552,
+        type: 3}
+      propertyPath: foreverID
+      value: 87753f1b643066f4a8ee45b19f6c2712
+      objectReference: {fileID: 0}
     - target: {fileID: 8193882076658244640, guid: db6925c2066e4fb49a396bacd6dc7552,
         type: 3}
       propertyPath: clothData
       value: 
-      objectReference: {fileID: 11400000, guid: 81adc70c9635d8d46b392117e53d9c83,
-        type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 8193882076658244640, guid: db6925c2066e4fb49a396bacd6dc7552,
         type: 3}
       propertyPath: currentClothData
       value: 
-      objectReference: {fileID: 11400000, guid: 81adc70c9635d8d46b392117e53d9c83,
-        type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 8193882076658244640, guid: db6925c2066e4fb49a396bacd6dc7552,
         type: 3}
-      propertyPath: allClothingData.Array.data[0]
+      propertyPath: 'allClothingData.Array.data[0]'
       value: 
       objectReference: {fileID: 11400000, guid: 234d8e3ab853f614ca94b74fd55e05af,
         type: 2}
@@ -112,5 +126,14 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: d4d49fbafda27ae49be1941d2833ca7d,
         type: 2}
+    - target: {fileID: 8975007657035133986, guid: db6925c2066e4fb49a396bacd6dc7552,
+        type: 3}
+      propertyPath: InitialPresentSpriteSet
+      value: 
+      objectReference: {fileID: 11400000, guid: d4d49fbafda27ae49be1941d2833ca7d,
+        type: 2}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: db6925c2066e4fb49a396bacd6dc7552, type: 3}

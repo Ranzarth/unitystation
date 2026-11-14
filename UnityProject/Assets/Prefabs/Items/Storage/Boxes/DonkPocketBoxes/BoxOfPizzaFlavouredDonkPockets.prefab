@@ -5,6 +5,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3565510291699974393, guid: 160baf50e4a27c24a8c1f40b3232c886,
@@ -13,15 +14,35 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 25a3a7e2b3e3bb64b89291f0e561c203,
         type: 3}
+    - target: {fileID: 3611493419046441529, guid: 160baf50e4a27c24a8c1f40b3232c886,
+        type: 3}
+      propertyPath: customNetTransform
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3611601839509589521, guid: 160baf50e4a27c24a8c1f40b3232c886,
+        type: 3}
+      propertyPath: _assetId
+      value: 709794152
+      objectReference: {fileID: 0}
     - target: {fileID: 3611601839509589521, guid: 160baf50e4a27c24a8c1f40b3232c886,
         type: 3}
       propertyPath: m_AssetId
-      value: 
+      value: f5d5f3f9ed71a7143a3add4cdabd5234
       objectReference: {fileID: 0}
     - target: {fileID: 3714002003377255333, guid: 160baf50e4a27c24a8c1f40b3232c886,
         type: 3}
       propertyPath: m_Name
       value: BoxOfPizzaFlavouredDonkPockets
+      objectReference: {fileID: 0}
+    - target: {fileID: 3717770139065081945, guid: 160baf50e4a27c24a8c1f40b3232c886,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3718085451752902353, guid: 160baf50e4a27c24a8c1f40b3232c886,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3718085451752902353, guid: 160baf50e4a27c24a8c1f40b3232c886,
         type: 3}
@@ -40,6 +61,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3718085451752902353, guid: 160baf50e4a27c24a8c1f40b3232c886,
         type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3718085451752902353, guid: 160baf50e4a27c24a8c1f40b3232c886,
+        type: 3}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
@@ -52,16 +78,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3718085451752902353, guid: 160baf50e4a27c24a8c1f40b3232c886,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3718085451752902353, guid: 160baf50e4a27c24a8c1f40b3232c886,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3718085451752902353, guid: 160baf50e4a27c24a8c1f40b3232c886,
         type: 3}
@@ -89,10 +105,29 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: a9610aece07a93d4c9e24f2de2319044,
         type: 2}
+    - target: {fileID: 4664273168146717065, guid: 160baf50e4a27c24a8c1f40b3232c886,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7407530865711990818, guid: 160baf50e4a27c24a8c1f40b3232c886,
         type: 3}
       propertyPath: PresentSpriteSet
       value: 
+      objectReference: {fileID: 11400000, guid: b738b3d220387ad4f9ceb74ec29d287f,
+        type: 2}
+    - target: {fileID: 7723797334500868040, guid: 160baf50e4a27c24a8c1f40b3232c886,
+        type: 3}
+      propertyPath: parentID
+      value: 160baf50e4a27c24a8c1f40b3232c886
+      objectReference: {fileID: 0}
+    - target: {fileID: 7723797334500868040, guid: 160baf50e4a27c24a8c1f40b3232c886,
+        type: 3}
+      propertyPath: foreverID
+      value: f5d5f3f9ed71a7143a3add4cdabd5234
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 160baf50e4a27c24a8c1f40b3232c886, type: 3}

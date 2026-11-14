@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1916b10721f72c927a14093e8210cb3f, type: 3}
   m_Name: Psicodine
   m_EditorClassIdentifier: 
+  foreverID: Psicodine
   displayName: Psicodine
   description: Suppresses anxiety and other various forms of mental distress. Overdose
     causes hallucinations and minor toxin damage.
   color: {r: 0.02745098, g: 0.90588236, b: 0.61960787, a: 1}
   state: 1
   heatDensity: 5
-  indexInSingleton: 276
+  indexInSingleton: 317

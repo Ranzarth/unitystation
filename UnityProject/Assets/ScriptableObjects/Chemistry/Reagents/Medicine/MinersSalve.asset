@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1916b10721f72c927a14093e8210cb3f, type: 3}
   m_Name: MinersSalve
   m_EditorClassIdentifier: 
+  foreverID: Miner's Salve
   displayName: Miner's Salve
   description: A powerful painkiller. Restores bruising and burns in addition to
     making the patient believe they are fully healed.
   color: {r: 0.42745098, g: 0.3882353, b: 0.45490196, a: 1}
   state: 1
   heatDensity: 5
-  indexInSingleton: 264
+  indexInSingleton: 305

@@ -1,13 +1,12 @@
-﻿using System;
-
-using UnityEngine;
-#if UNITY_EDITOR // Preprocessor line added (and corresponding #endif at the end): non-standard change.
+﻿#if UNITY_EDITOR // Preprocessor line added (and corresponding #endif at the end): non-standard change.
+using System;
 using UnityEditor;
+using UnityEngine;
 
-namespace DigitalRuby.LightningBolt
+namespace Standard_Assets.LightningBolt.Editor
 {
     [CustomEditor(typeof(LightningBoltScript))]
-    public class LightningBoltEditor : Editor
+    public class LightningBoltEditor : UnityEditor.Editor
     {
         private Texture2D logo;
 
@@ -38,10 +37,6 @@ namespace DigitalRuby.LightningBolt
                 r.x = ((EditorGUIUtility.currentViewWidth - r.width) * 0.5f) - 4.0f;
                 r.y = r2.y;
                 GUI.DrawTexture(r, logo, ScaleMode.StretchToFill);
-                if (GUI.Button(r, "", new GUIStyle()))
-                {
-                    Application.OpenURL("https://www.assetstore.unity3d.com/en/#!/content/34217?aid=1011lGnL");
-                }
                 EditorGUILayout.Separator();
             }
 

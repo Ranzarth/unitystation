@@ -5,17 +5,28 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 67653447299552786, guid: 4e87468c82c280b418f8bf0d5f3e7882,
         type: 3}
+      propertyPath: _assetId
+      value: 3793071544
+      objectReference: {fileID: 0}
+    - target: {fileID: 67653447299552786, guid: 4e87468c82c280b418f8bf0d5f3e7882,
+        type: 3}
       propertyPath: m_AssetId
-      value: 
+      value: 1b0c3377af5f2bd44b42d585db731857
       objectReference: {fileID: 0}
     - target: {fileID: 100328150011014054, guid: 4e87468c82c280b418f8bf0d5f3e7882,
         type: 3}
       propertyPath: m_Name
       value: GoldenBikeHorn
+      objectReference: {fileID: 0}
+    - target: {fileID: 105814575089489618, guid: 4e87468c82c280b418f8bf0d5f3e7882,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 105814575089489618, guid: 4e87468c82c280b418f8bf0d5f3e7882,
         type: 3}
@@ -34,6 +45,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 105814575089489618, guid: 4e87468c82c280b418f8bf0d5f3e7882,
         type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 105814575089489618, guid: 4e87468c82c280b418f8bf0d5f3e7882,
+        type: 3}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
@@ -46,16 +62,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 105814575089489618, guid: 4e87468c82c280b418f8bf0d5f3e7882,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 105814575089489618, guid: 4e87468c82c280b418f8bf0d5f3e7882,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 105814575089489618, guid: 4e87468c82c280b418f8bf0d5f3e7882,
         type: 3}
@@ -80,81 +86,18 @@ PrefabInstance:
         type: 3}
     - target: {fileID: 543235021644563652, guid: 4e87468c82c280b418f8bf0d5f3e7882,
         type: 3}
-      propertyPath: itemSprites.LeftHand.Texture
-      value: 
-      objectReference: {fileID: 2800000, guid: ee877616c08bc7840819e4b76ca8b8a7, type: 3}
-    - target: {fileID: 543235021644563652, guid: 4e87468c82c280b418f8bf0d5f3e7882,
-        type: 3}
-      propertyPath: itemSprites.LeftHand.Sprites.Array.data[0]
-      value: 
-      objectReference: {fileID: 21300000, guid: ee877616c08bc7840819e4b76ca8b8a7,
-        type: 3}
-    - target: {fileID: 543235021644563652, guid: 4e87468c82c280b418f8bf0d5f3e7882,
-        type: 3}
-      propertyPath: itemSprites.LeftHand.Sprites.Array.data[1]
-      value: 
-      objectReference: {fileID: 21300002, guid: ee877616c08bc7840819e4b76ca8b8a7,
-        type: 3}
-    - target: {fileID: 543235021644563652, guid: 4e87468c82c280b418f8bf0d5f3e7882,
-        type: 3}
-      propertyPath: itemSprites.LeftHand.Sprites.Array.data[2]
-      value: 
-      objectReference: {fileID: 21300004, guid: ee877616c08bc7840819e4b76ca8b8a7,
-        type: 3}
-    - target: {fileID: 543235021644563652, guid: 4e87468c82c280b418f8bf0d5f3e7882,
-        type: 3}
-      propertyPath: itemSprites.LeftHand.Sprites.Array.data[3]
-      value: 
-      objectReference: {fileID: 21300006, guid: ee877616c08bc7840819e4b76ca8b8a7,
-        type: 3}
-    - target: {fileID: 543235021644563652, guid: 4e87468c82c280b418f8bf0d5f3e7882,
-        type: 3}
-      propertyPath: itemSprites.LeftHand.EquippedData
-      value: 
-      objectReference: {fileID: 4900000, guid: 67e7218ba7137314c983f02768170018, type: 3}
-    - target: {fileID: 543235021644563652, guid: 4e87468c82c280b418f8bf0d5f3e7882,
-        type: 3}
-      propertyPath: itemSprites.RightHand.Texture
-      value: 
-      objectReference: {fileID: 2800000, guid: 381d46f43672f8545b520dd86b849315, type: 3}
-    - target: {fileID: 543235021644563652, guid: 4e87468c82c280b418f8bf0d5f3e7882,
-        type: 3}
-      propertyPath: itemSprites.RightHand.Sprites.Array.data[0]
-      value: 
-      objectReference: {fileID: 21300000, guid: 381d46f43672f8545b520dd86b849315,
-        type: 3}
-    - target: {fileID: 543235021644563652, guid: 4e87468c82c280b418f8bf0d5f3e7882,
-        type: 3}
-      propertyPath: itemSprites.RightHand.Sprites.Array.data[1]
-      value: 
-      objectReference: {fileID: 21300002, guid: 381d46f43672f8545b520dd86b849315,
-        type: 3}
-    - target: {fileID: 543235021644563652, guid: 4e87468c82c280b418f8bf0d5f3e7882,
-        type: 3}
-      propertyPath: itemSprites.RightHand.Sprites.Array.data[2]
-      value: 
-      objectReference: {fileID: 21300004, guid: 381d46f43672f8545b520dd86b849315,
-        type: 3}
-    - target: {fileID: 543235021644563652, guid: 4e87468c82c280b418f8bf0d5f3e7882,
-        type: 3}
-      propertyPath: itemSprites.RightHand.Sprites.Array.data[3]
-      value: 
-      objectReference: {fileID: 21300006, guid: 381d46f43672f8545b520dd86b849315,
-        type: 3}
-    - target: {fileID: 543235021644563652, guid: 4e87468c82c280b418f8bf0d5f3e7882,
-        type: 3}
-      propertyPath: itemSprites.RightHand.EquippedData
-      value: 
-      objectReference: {fileID: 4900000, guid: b5200dc8d0219934e8da2a1a1204ed31, type: 3}
-    - target: {fileID: 543235021644563652, guid: 4e87468c82c280b418f8bf0d5f3e7882,
-        type: 3}
-      propertyPath: initialDescription
-      value: Golden? Clearly, it's made with bananium! Honk!
+      propertyPath: exportCost
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 543235021644563652, guid: 4e87468c82c280b418f8bf0d5f3e7882,
         type: 3}
       propertyPath: initialName
       value: golden bike horn
+      objectReference: {fileID: 0}
+    - target: {fileID: 543235021644563652, guid: 4e87468c82c280b418f8bf0d5f3e7882,
+        type: 3}
+      propertyPath: initialDescription
+      value: Golden? Clearly, it's made with bananium! Honk!
       objectReference: {fileID: 0}
     - target: {fileID: 543235021644563652, guid: 4e87468c82c280b418f8bf0d5f3e7882,
         type: 3}
@@ -168,11 +111,92 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 208dcaee377261b4790c7616548908b6,
         type: 2}
+    - target: {fileID: 543235021644563652, guid: 4e87468c82c280b418f8bf0d5f3e7882,
+        type: 3}
+      propertyPath: itemSprites.LeftHand.Texture
+      value: 
+      objectReference: {fileID: 2800000, guid: ee877616c08bc7840819e4b76ca8b8a7, type: 3}
+    - target: {fileID: 543235021644563652, guid: 4e87468c82c280b418f8bf0d5f3e7882,
+        type: 3}
+      propertyPath: itemSprites.RightHand.Texture
+      value: 
+      objectReference: {fileID: 2800000, guid: 381d46f43672f8545b520dd86b849315, type: 3}
+    - target: {fileID: 543235021644563652, guid: 4e87468c82c280b418f8bf0d5f3e7882,
+        type: 3}
+      propertyPath: itemSprites.LeftHand.EquippedData
+      value: 
+      objectReference: {fileID: 4900000, guid: 67e7218ba7137314c983f02768170018, type: 3}
+    - target: {fileID: 543235021644563652, guid: 4e87468c82c280b418f8bf0d5f3e7882,
+        type: 3}
+      propertyPath: itemSprites.RightHand.EquippedData
+      value: 
+      objectReference: {fileID: 4900000, guid: b5200dc8d0219934e8da2a1a1204ed31, type: 3}
+    - target: {fileID: 543235021644563652, guid: 4e87468c82c280b418f8bf0d5f3e7882,
+        type: 3}
+      propertyPath: 'itemSprites.LeftHand.Sprites.Array.data[0]'
+      value: 
+      objectReference: {fileID: 21300000, guid: ee877616c08bc7840819e4b76ca8b8a7,
+        type: 3}
+    - target: {fileID: 543235021644563652, guid: 4e87468c82c280b418f8bf0d5f3e7882,
+        type: 3}
+      propertyPath: 'itemSprites.LeftHand.Sprites.Array.data[1]'
+      value: 
+      objectReference: {fileID: 21300002, guid: ee877616c08bc7840819e4b76ca8b8a7,
+        type: 3}
+    - target: {fileID: 543235021644563652, guid: 4e87468c82c280b418f8bf0d5f3e7882,
+        type: 3}
+      propertyPath: 'itemSprites.LeftHand.Sprites.Array.data[2]'
+      value: 
+      objectReference: {fileID: 21300004, guid: ee877616c08bc7840819e4b76ca8b8a7,
+        type: 3}
+    - target: {fileID: 543235021644563652, guid: 4e87468c82c280b418f8bf0d5f3e7882,
+        type: 3}
+      propertyPath: 'itemSprites.LeftHand.Sprites.Array.data[3]'
+      value: 
+      objectReference: {fileID: 21300006, guid: ee877616c08bc7840819e4b76ca8b8a7,
+        type: 3}
+    - target: {fileID: 543235021644563652, guid: 4e87468c82c280b418f8bf0d5f3e7882,
+        type: 3}
+      propertyPath: 'itemSprites.RightHand.Sprites.Array.data[0]'
+      value: 
+      objectReference: {fileID: 21300000, guid: 381d46f43672f8545b520dd86b849315,
+        type: 3}
+    - target: {fileID: 543235021644563652, guid: 4e87468c82c280b418f8bf0d5f3e7882,
+        type: 3}
+      propertyPath: 'itemSprites.RightHand.Sprites.Array.data[1]'
+      value: 
+      objectReference: {fileID: 21300002, guid: 381d46f43672f8545b520dd86b849315,
+        type: 3}
+    - target: {fileID: 543235021644563652, guid: 4e87468c82c280b418f8bf0d5f3e7882,
+        type: 3}
+      propertyPath: 'itemSprites.RightHand.Sprites.Array.data[2]'
+      value: 
+      objectReference: {fileID: 21300004, guid: 381d46f43672f8545b520dd86b849315,
+        type: 3}
+    - target: {fileID: 543235021644563652, guid: 4e87468c82c280b418f8bf0d5f3e7882,
+        type: 3}
+      propertyPath: 'itemSprites.RightHand.Sprites.Array.data[3]'
+      value: 
+      objectReference: {fileID: 21300006, guid: 381d46f43672f8545b520dd86b849315,
+        type: 3}
     - target: {fileID: 6062532139084304417, guid: 4e87468c82c280b418f8bf0d5f3e7882,
         type: 3}
       propertyPath: PresentSpriteSet
       value: 
       objectReference: {fileID: 11400000, guid: 616d8596e3a20cb429efa887e13867b6,
         type: 2}
+    - target: {fileID: 6475848676736198603, guid: 4e87468c82c280b418f8bf0d5f3e7882,
+        type: 3}
+      propertyPath: parentID
+      value: 4e87468c82c280b418f8bf0d5f3e7882
+      objectReference: {fileID: 0}
+    - target: {fileID: 6475848676736198603, guid: 4e87468c82c280b418f8bf0d5f3e7882,
+        type: 3}
+      propertyPath: foreverID
+      value: 1b0c3377af5f2bd44b42d585db731857
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4e87468c82c280b418f8bf0d5f3e7882, type: 3}

@@ -5,8 +5,19 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1593224944700185510, guid: a435d5d64bc4b48baa27fecfcab9e111,
+        type: 3}
+      propertyPath: parentID
+      value: a435d5d64bc4b48baa27fecfcab9e111
+      objectReference: {fileID: 0}
+    - target: {fileID: 1593224944700185510, guid: a435d5d64bc4b48baa27fecfcab9e111,
+        type: 3}
+      propertyPath: foreverID
+      value: 2b266284fc17344419281d8fcde6b385
+      objectReference: {fileID: 0}
     - target: {fileID: 2008855533471951948, guid: a435d5d64bc4b48baa27fecfcab9e111,
         type: 3}
       propertyPath: PresentSpriteSet
@@ -54,7 +65,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: aad71dfe21d995c4387a3e9233679e9e,
+      objectReference: {fileID: 21300000, guid: 2230e190f4958554eba5686c52342486,
         type: 3}
     - target: {fileID: 5500876317600244887, guid: a435d5d64bc4b48baa27fecfcab9e111,
         type: 3}
@@ -121,10 +132,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5706816387826169431, guid: a435d5d64bc4b48baa27fecfcab9e111,
+        type: 3}
+      propertyPath: customNetTransform
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5706845613525625471, guid: a435d5d64bc4b48baa27fecfcab9e111,
+        type: 3}
+      propertyPath: _assetId
+      value: 365711431
+      objectReference: {fileID: 0}
     - target: {fileID: 5706845613525625471, guid: a435d5d64bc4b48baa27fecfcab9e111,
         type: 3}
       propertyPath: m_AssetId
-      value: 
+      value: 2b266284fc17344419281d8fcde6b385
       objectReference: {fileID: 0}
     - target: {fileID: 5709806014564648511, guid: a435d5d64bc4b48baa27fecfcab9e111,
         type: 3}
@@ -132,4 +153,7 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a435d5d64bc4b48baa27fecfcab9e111, type: 3}

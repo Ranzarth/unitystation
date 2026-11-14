@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d1de2691495b304e9843ac3335b626d, type: 3}
   m_Name: maintenance_closing
   m_EditorClassIdentifier: 
+  foreverID: 966f7831939f56e46a673e2a031d27f4
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: e0e8aad74d54bf245aac890e378d64a0, type: 3}
@@ -27,5 +28,4 @@ MonoBehaviour:
     - sprite: {fileID: 21300010, guid: e0e8aad74d54bf245aac890e378d64a0, type: 3}
       secondDelay: 0.1
   IsPalette: 0
-  setID: 17806
   DisplayName: 

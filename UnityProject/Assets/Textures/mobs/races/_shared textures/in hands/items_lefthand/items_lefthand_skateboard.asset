@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d1de2691495b304e9843ac3335b626d, type: 3}
   m_Name: items_lefthand_skateboard
   m_EditorClassIdentifier: 
+  foreverID: a78454b4bd180c54bbff4123ea7dc179
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 8bc29eae92b292d4ba8f492976a2408a, type: 3}
@@ -26,5 +27,4 @@ MonoBehaviour:
     - sprite: {fileID: 21300006, guid: 8bc29eae92b292d4ba8f492976a2408a, type: 3}
       secondDelay: 0
   IsPalette: 0
-  setID: 13683
   DisplayName: 

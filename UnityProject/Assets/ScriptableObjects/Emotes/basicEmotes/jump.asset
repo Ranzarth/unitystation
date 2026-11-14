@@ -13,13 +13,18 @@ MonoBehaviour:
   m_Name: jump
   m_EditorClassIdentifier: 
   emoteName: jump
+  EmoteIcon: {fileID: 0}
   requiresHands: 0
+  allowEmoteWhileInCrit: 0
+  isAudibleEmote: 0
+  allowEmoteWhileCrawling: 1
   viewText: jumps!
   youText: 1..2..3.. jump!
   failText: You cannot Jump!
+  mouthBlockedText: You are unable to make a sound!
   critViewText: tries to jump! but fails and just groans in pain.
-  allowEmoteWhileInCrit: 0
+  soundsAreTyped: 0
   defaultSounds: []
-  maleSounds: []
-  femaleSounds: []
+  TypedSounds: []
   pitchRange: {x: 0.7, y: 1}
+  allowedPlayerTypes: 1

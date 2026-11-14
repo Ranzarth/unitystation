@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d1de2691495b304e9843ac3335b626d, type: 3}
   m_Name: alien_table_alien_table
   m_EditorClassIdentifier: 
+  foreverID: ac43880b2d70815469662dc5785f255d
   Variance:
   - Frames:
     - sprite: {fileID: 1366996647704419161, guid: cf6dbae1ec2f4894d8bfea6f4f4cad79,
         type: 3}
       secondDelay: 0
   IsPalette: 0
-  setID: 21100
   DisplayName: 

@@ -5,8 +5,19 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2874999923228327427, guid: 20e558a25e0b41942a7483724b3e4d45,
+        type: 3}
+      propertyPath: parentID
+      value: 20e558a25e0b41942a7483724b3e4d45
+      objectReference: {fileID: 0}
+    - target: {fileID: 2874999923228327427, guid: 20e558a25e0b41942a7483724b3e4d45,
+        type: 3}
+      propertyPath: foreverID
+      value: 95f5b7a192c4e424a8d825f6366be62d
+      objectReference: {fileID: 0}
     - target: {fileID: 3033926282393258473, guid: 20e558a25e0b41942a7483724b3e4d45,
         type: 3}
       propertyPath: PresentSpriteSet
@@ -15,13 +26,13 @@ PrefabInstance:
         type: 2}
     - target: {fileID: 8768840950121946380, guid: 20e558a25e0b41942a7483724b3e4d45,
         type: 3}
-      propertyPath: initialDescription
-      value: The pizza equivalent of Einstein's riddle.
+      propertyPath: initialName
+      value: Hawaiian pizza
       objectReference: {fileID: 0}
     - target: {fileID: 8768840950121946380, guid: 20e558a25e0b41942a7483724b3e4d45,
         type: 3}
-      propertyPath: initialName
-      value: Hawaiian pizza
+      propertyPath: initialDescription
+      value: The pizza equivalent of Einstein's riddle.
       objectReference: {fileID: 0}
     - target: {fileID: 9055966213179572530, guid: 20e558a25e0b41942a7483724b3e4d45,
         type: 3}
@@ -29,10 +40,25 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: c8ebba04c03d9a94090763a359fe42e8,
         type: 3}
+    - target: {fileID: 9055966213179572530, guid: 20e558a25e0b41942a7483724b3e4d45,
+        type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9135694018600570842, guid: 20e558a25e0b41942a7483724b3e4d45,
+        type: 3}
+      propertyPath: _assetId
+      value: 2853345019
+      objectReference: {fileID: 0}
     - target: {fileID: 9135694018600570842, guid: 20e558a25e0b41942a7483724b3e4d45,
         type: 3}
       propertyPath: m_AssetId
-      value: 
+      value: 95f5b7a192c4e424a8d825f6366be62d
+      objectReference: {fileID: 0}
+    - target: {fileID: 9173611398801084186, guid: 20e558a25e0b41942a7483724b3e4d45,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9173611398801084186, guid: 20e558a25e0b41942a7483724b3e4d45,
         type: 3}
@@ -51,6 +77,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9173611398801084186, guid: 20e558a25e0b41942a7483724b3e4d45,
         type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9173611398801084186, guid: 20e558a25e0b41942a7483724b3e4d45,
+        type: 3}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
@@ -63,16 +94,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9173611398801084186, guid: 20e558a25e0b41942a7483724b3e4d45,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9173611398801084186, guid: 20e558a25e0b41942a7483724b3e4d45,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9173611398801084186, guid: 20e558a25e0b41942a7483724b3e4d45,
         type: 3}
@@ -95,4 +116,7 @@ PrefabInstance:
       value: HawaiianPizza
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 20e558a25e0b41942a7483724b3e4d45, type: 3}

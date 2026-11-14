@@ -1,5 +1,6 @@
 {
     "name": "Tests",
+    "rootNamespace": "",
     "references": [
         "Assets",
         "Mirror",
@@ -9,7 +10,14 @@
         "Editor",
         "Chemistry",
         "SerializableDictionary",
-        "Logger"
+        "Logger",
+        "NaughtyAttributes.Editor",
+        "NaughtyAttributes.Core",
+        "Shared",
+        "Permissions",
+        "Utils",
+        "SecureStuff",
+        "RootSillys"
     ],
     "includePlatforms": [
         "Editor"
@@ -18,7 +26,11 @@
     "allowUnsafeCode": false,
     "overrideReferences": true,
     "precompiledReferences": [
-        "nunit.framework.dll"
+        "nunit.framework.dll",
+        "Newtonsoft.Json.dll",
+        "Shouldly.dll",
+        "nunit.framework.dll",
+        "Shouldly.dll"
     ],
     "autoReferenced": false,
     "defineConstraints": [

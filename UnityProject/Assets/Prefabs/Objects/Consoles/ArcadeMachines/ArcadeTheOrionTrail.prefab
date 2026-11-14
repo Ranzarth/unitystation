@@ -5,28 +5,34 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 631031224189086409, guid: ad5e3e73630862d4c9c3424d5a308a43,
         type: 3}
-      propertyPath: initialDescription
-      value: Learn how our ancestors got to Orion, and have fun in the process!
+      propertyPath: initialName
+      value: The Orion Trail arcade machine
       objectReference: {fileID: 0}
     - target: {fileID: 631031224189086409, guid: ad5e3e73630862d4c9c3424d5a308a43,
         type: 3}
-      propertyPath: initialName
-      value: Orion Trail
+      propertyPath: initialDescription
+      value: Learn how our ancestors got to Orion and have fun in the process!
+      objectReference: {fileID: 0}
+    - target: {fileID: 1853780670727930011, guid: ad5e3e73630862d4c9c3424d5a308a43,
+        type: 3}
+      propertyPath: _assetId
+      value: 1041187998
       objectReference: {fileID: 0}
     - target: {fileID: 1853780670727930011, guid: ad5e3e73630862d4c9c3424d5a308a43,
         type: 3}
       propertyPath: m_AssetId
-      value: 
+      value: 488f4dab2d11be646a78f9864e5c1d4e
       objectReference: {fileID: 0}
     - target: {fileID: 4087335409498391312, guid: ad5e3e73630862d4c9c3424d5a308a43,
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 6001373814630084952, guid: c05944a94a971b643961cef4ad06ed2d,
+      objectReference: {fileID: -7536518680135635946, guid: c05944a94a971b643961cef4ad06ed2d,
         type: 3}
     - target: {fileID: 4935002071220661900, guid: ad5e3e73630862d4c9c3424d5a308a43,
         type: 3}
@@ -34,10 +40,25 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1825729487614960133, guid: a195e3c6bf02bab4ca586117ae7b5c5a,
         type: 3}
+    - target: {fileID: 6563374536800406448, guid: ad5e3e73630862d4c9c3424d5a308a43,
+        type: 3}
+      propertyPath: parentID
+      value: ad5e3e73630862d4c9c3424d5a308a43
+      objectReference: {fileID: 0}
+    - target: {fileID: 6563374536800406448, guid: ad5e3e73630862d4c9c3424d5a308a43,
+        type: 3}
+      propertyPath: foreverID
+      value: 488f4dab2d11be646a78f9864e5c1d4e
+      objectReference: {fileID: 0}
     - target: {fileID: 7810405554709198329, guid: ad5e3e73630862d4c9c3424d5a308a43,
         type: 3}
       propertyPath: m_Name
       value: ArcadeTheOrionTrail
+      objectReference: {fileID: 0}
+    - target: {fileID: 7814193622483743523, guid: ad5e3e73630862d4c9c3424d5a308a43,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7814193622483743523, guid: ad5e3e73630862d4c9c3424d5a308a43,
         type: 3}
@@ -56,31 +77,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7814193622483743523, guid: ad5e3e73630862d4c9c3424d5a308a43,
         type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7814193622483743523, guid: ad5e3e73630862d4c9c3424d5a308a43,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7814193622483743523, guid: ad5e3e73630862d4c9c3424d5a308a43,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7814193622483743523, guid: ad5e3e73630862d4c9c3424d5a308a43,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7814193622483743523, guid: ad5e3e73630862d4c9c3424d5a308a43,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7814193622483743523, guid: ad5e3e73630862d4c9c3424d5a308a43,
-        type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
@@ -95,4 +91,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad5e3e73630862d4c9c3424d5a308a43, type: 3}

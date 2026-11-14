@@ -5,6 +5,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 4275613704400762766, guid: c1864b9c35707f44da16d6a9dd59b43c,
@@ -14,8 +15,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4336868785935525208, guid: c1864b9c35707f44da16d6a9dd59b43c,
         type: 3}
+      propertyPath: _assetId
+      value: 3994399341
+      objectReference: {fileID: 0}
+    - target: {fileID: 4336868785935525208, guid: c1864b9c35707f44da16d6a9dd59b43c,
+        type: 3}
       propertyPath: m_AssetId
-      value: 
+      value: 1a7c3ebc2231a9149909503679a72d6b
       objectReference: {fileID: 0}
     - target: {fileID: 4442819272345970072, guid: c1864b9c35707f44da16d6a9dd59b43c,
         type: 3}
@@ -83,9 +89,19 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 08c2125b5903ea6428e6369852b415a4,
         type: 3}
+    - target: {fileID: 7278146107975079041, guid: c1864b9c35707f44da16d6a9dd59b43c,
+        type: 3}
+      propertyPath: parentID
+      value: c1864b9c35707f44da16d6a9dd59b43c
+      objectReference: {fileID: 0}
+    - target: {fileID: 7278146107975079041, guid: c1864b9c35707f44da16d6a9dd59b43c,
+        type: 3}
+      propertyPath: foreverID
+      value: 1a7c3ebc2231a9149909503679a72d6b
+      objectReference: {fileID: 0}
     - target: {fileID: 7333734023567297385, guid: c1864b9c35707f44da16d6a9dd59b43c,
         type: 3}
-      propertyPath: allClothingData.Array.data[0]
+      propertyPath: 'allClothingData.Array.data[0]'
       value: 
       objectReference: {fileID: 11400000, guid: bd9c68b591c6b614f9f0507949a34389,
         type: 2}
@@ -95,5 +111,14 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 4e37bd7bbfba64048a9089b56d40500a,
         type: 2}
+    - target: {fileID: 7565358536066474859, guid: c1864b9c35707f44da16d6a9dd59b43c,
+        type: 3}
+      propertyPath: InitialPresentSpriteSet
+      value: 
+      objectReference: {fileID: 11400000, guid: 4e37bd7bbfba64048a9089b56d40500a,
+        type: 2}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c1864b9c35707f44da16d6a9dd59b43c, type: 3}

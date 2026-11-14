@@ -5,6 +5,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1973002661359593264, guid: 5a4f48d58142749de92013eb1e1d0523,
@@ -29,8 +30,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2909197017712554513, guid: 5a4f48d58142749de92013eb1e1d0523,
         type: 3}
+      propertyPath: _assetId
+      value: 3048599036
+      objectReference: {fileID: 0}
+    - target: {fileID: 2909197017712554513, guid: 5a4f48d58142749de92013eb1e1d0523,
+        type: 3}
       propertyPath: m_AssetId
-      value: 
+      value: 4c734bb9f1d853f40bb830ca96ef0260
       objectReference: {fileID: 0}
     - target: {fileID: 3011710637427380133, guid: 5a4f48d58142749de92013eb1e1d0523,
         type: 3}
@@ -108,6 +114,22 @@ PrefabInstance:
       propertyPath: initialDescription
       value: A tasteful grey jumpskirt that reminds you of the good old days.
       objectReference: {fileID: 0}
+    - target: {fileID: 3397443007502491847, guid: 5a4f48d58142749de92013eb1e1d0523,
+        type: 3}
+      propertyPath: itemSprites.SpriteInventoryIcon
+      value: 
+      objectReference: {fileID: 11400000, guid: bc47f6dae16d46e48a99df9b2325ff71,
+        type: 2}
+    - target: {fileID: 8174322744686822344, guid: 5a4f48d58142749de92013eb1e1d0523,
+        type: 3}
+      propertyPath: parentID
+      value: 5a4f48d58142749de92013eb1e1d0523
+      objectReference: {fileID: 0}
+    - target: {fileID: 8174322744686822344, guid: 5a4f48d58142749de92013eb1e1d0523,
+        type: 3}
+      propertyPath: foreverID
+      value: 4c734bb9f1d853f40bb830ca96ef0260
+      objectReference: {fileID: 0}
     - target: {fileID: 8193882076658244640, guid: 5a4f48d58142749de92013eb1e1d0523,
         type: 3}
       propertyPath: clothData
@@ -125,7 +147,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8193882076658244640, guid: 5a4f48d58142749de92013eb1e1d0523,
         type: 3}
-      propertyPath: allClothingData.Array.data[0]
+      propertyPath: 'allClothingData.Array.data[0]'
       value: 
       objectReference: {fileID: 11400000, guid: ff212e02a426eb247af3abf622d398ea,
         type: 2}
@@ -135,5 +157,14 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: bc47f6dae16d46e48a99df9b2325ff71,
         type: 2}
+    - target: {fileID: 8975007657035133986, guid: 5a4f48d58142749de92013eb1e1d0523,
+        type: 3}
+      propertyPath: InitialPresentSpriteSet
+      value: 
+      objectReference: {fileID: 11400000, guid: bc47f6dae16d46e48a99df9b2325ff71,
+        type: 2}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5a4f48d58142749de92013eb1e1d0523, type: 3}

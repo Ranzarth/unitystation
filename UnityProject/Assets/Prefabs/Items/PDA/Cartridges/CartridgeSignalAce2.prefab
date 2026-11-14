@@ -5,6 +5,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1437256031008693735, guid: ab2d6fa59afa1324980e12105229ff21,
@@ -13,22 +14,37 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 9061e4a2f127b3c4caad6c29b69e3d64,
         type: 2}
-    - target: {fileID: 4636927770614614274, guid: ab2d6fa59afa1324980e12105229ff21,
+    - target: {fileID: 2165825070856317453, guid: ab2d6fa59afa1324980e12105229ff21,
         type: 3}
-      propertyPath: initialDescription
-      value: Complete with integrated radio signaler!
+      propertyPath: parentID
+      value: ab2d6fa59afa1324980e12105229ff21
+      objectReference: {fileID: 0}
+    - target: {fileID: 2165825070856317453, guid: ab2d6fa59afa1324980e12105229ff21,
+        type: 3}
+      propertyPath: foreverID
+      value: 4494e404355d69f4cbafb62ac022e3d6
       objectReference: {fileID: 0}
     - target: {fileID: 4636927770614614274, guid: ab2d6fa59afa1324980e12105229ff21,
         type: 3}
       propertyPath: initialName
       value: Signal Ace 2
       objectReference: {fileID: 0}
+    - target: {fileID: 4636927770614614274, guid: ab2d6fa59afa1324980e12105229ff21,
+        type: 3}
+      propertyPath: initialDescription
+      value: Complete with integrated radio signaler!
+      objectReference: {fileID: 0}
     - target: {fileID: 4919551566539134268, guid: ab2d6fa59afa1324980e12105229ff21,
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -2610903061672571882, guid: 96b8898148f416a4a9da6f23d0b8de6a,
+      objectReference: {fileID: -5775517915672917762, guid: 96b8898148f416a4a9da6f23d0b8de6a,
         type: 3}
+    - target: {fileID: 5091237643204254484, guid: ab2d6fa59afa1324980e12105229ff21,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5091237643204254484, guid: ab2d6fa59afa1324980e12105229ff21,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -46,6 +62,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5091237643204254484, guid: ab2d6fa59afa1324980e12105229ff21,
         type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5091237643204254484, guid: ab2d6fa59afa1324980e12105229ff21,
+        type: 3}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
@@ -58,16 +79,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5091237643204254484, guid: ab2d6fa59afa1324980e12105229ff21,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5091237643204254484, guid: ab2d6fa59afa1324980e12105229ff21,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5091237643204254484, guid: ab2d6fa59afa1324980e12105229ff21,
         type: 3}
@@ -91,8 +102,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5125098649999842260, guid: ab2d6fa59afa1324980e12105229ff21,
         type: 3}
+      propertyPath: _assetId
+      value: 3509935186
+      objectReference: {fileID: 0}
+    - target: {fileID: 5125098649999842260, guid: ab2d6fa59afa1324980e12105229ff21,
+        type: 3}
       propertyPath: m_AssetId
-      value: 
+      value: 4494e404355d69f4cbafb62ac022e3d6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ab2d6fa59afa1324980e12105229ff21, type: 3}

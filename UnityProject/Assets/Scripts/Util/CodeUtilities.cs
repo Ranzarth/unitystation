@@ -1,31 +1,24 @@
 ﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
 
-public static class CodeUtilities
+namespace Util
 {
-	public static string GetUntilOrEmpty(this string text, string stopAt = "-")
+	public static class CodeUtilities
 	{
-		if (!String.IsNullOrWhiteSpace(text))
-		{
-			int charLocation = text.IndexOf(stopAt, StringComparison.Ordinal);
+		public static string RemoveClone(this string text) => text?.Replace("(Clone)", string.Empty);
 
-			if (charLocation > 0)
+		public static string GetUntilOrEmpty(this string text, string stopAt = "-")
+		{
+			if (!String.IsNullOrWhiteSpace(text))
 			{
-				return text.Substring(0, charLocation);
+				int charLocation = text.IndexOf(stopAt, StringComparison.Ordinal);
+
+				if (charLocation > 0)
+				{
+					return text.Substring(0, charLocation);
+				}
 			}
-		}
 
-		return String.Empty;
-	}
-
-	public static bool IsEqual(float a, float b)
-	{
-		if (a >= b - Mathf.Epsilon && a <= b + Mathf.Epsilon)
-		{
-			return true;
+			return String.Empty;
 		}
-		return false;
 	}
 }

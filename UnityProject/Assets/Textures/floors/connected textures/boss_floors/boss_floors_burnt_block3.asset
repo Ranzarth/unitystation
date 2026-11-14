@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d1de2691495b304e9843ac3335b626d, type: 3}
   m_Name: boss_floors_burnt_block3
   m_EditorClassIdentifier: 
+  foreverID: 184fa9cf084a32246aef5446d95b8c03
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 5f1f4d3c6dff33741a2ab9eaa0ac4adb, type: 3}
@@ -26,5 +27,4 @@ MonoBehaviour:
     - sprite: {fileID: 21300006, guid: 5f1f4d3c6dff33741a2ab9eaa0ac4adb, type: 3}
       secondDelay: 0
   IsPalette: 0
-  setID: 4220
   DisplayName: 

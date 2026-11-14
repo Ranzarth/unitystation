@@ -11,7 +11,10 @@ UnityProject/Assets/StreamingAssets/admin/admins.txt.meta
 UnityProject/Assets/StreamingAssets/admin/banlist.json
 UnityProject/Assets/StreamingAssets/admin/banlist.json.meta
 UnityProject/Assets/StreamingAssets/chatLogs*
+UnityProject/Assets/StreamingAssets/Logs/Admin*
 UnityProject/AddressablePackingProjects/SoundAndMusic/Library*
+UnityProject/Assets/Packages
+UnityProject/Assets/Packages.meta
 
 UnityProject/Assets/Photon\ Unity\ Networking/
 UnityProject/Assets/PhotonChatApi
@@ -19,6 +22,8 @@ UnityProject/Assets/AssetStoreTools*
 UnityProject/Assets/InitTestScene*
 UnityProject/Assets/MHLab*
 UnityProject/Assets/Resources/BuildPrefs.json
+
+UnityProject/UserSettings/*
 
 UnityProject/booster.beam
 
@@ -97,6 +102,20 @@ UnityProject/.vscode/settings.json
 !Reference Material/**
 
 *.DotSettings
+
 UnityProject/AddressablePackingProjects/SoundAndMusic/Temp/
+UnityProject/AddressablePackingProjects/SoundAndMusic/Logs/*
+UnityProject/AddressablePackingProjects/SoundAndMusic/.vsconfig
 
 UnityProject/.vsconfig
+
+UnityProject/Assets/Materials/PostProcess/Post-FloorFovGenerator Material.mat
+
+UnityProject/Assets/Materials/PostProcess/Post-FovGenerator.mat
+
+UnityProject/ProjectSettings/Packages/com.xeleh.enhancer/Settings.asset
+UnityProject/AddressablePackingProjects/SoundAndMusic/.vscode/settings.json
+UnityProject/Assets/Resources/ScriptableObjectsSingletons/SpriteCatalogueSingleton.asset
+Tools/CodeScanning/CodeScan/CodeScan/obj
+UnityProject/AddressablePackingProjects/SoundAndMusic/obj
+/UnityProject/Builds_Data

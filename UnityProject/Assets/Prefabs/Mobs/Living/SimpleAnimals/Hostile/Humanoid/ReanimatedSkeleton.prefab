@@ -1,26 +1,11 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &5997360506871655458
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5839488887052965560}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 10470e342fd41de468f149e991721d5a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  despawnBody: 1
-  lootDrop:
-  - {fileID: 185268326757235430, guid: 0822e2543c887534d8535f437579b51a, type: 3}
-  - {fileID: 185268326757235430, guid: 0822e2543c887534d8535f437579b51a, type: 3}
 --- !u!1001 &547368275994833700
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 590354148432884721, guid: 411e38af01d5a8249afcbd5beb9de197,
@@ -31,13 +16,19 @@ PrefabInstance:
         type: 2}
     - target: {fileID: 590354148432884721, guid: 411e38af01d5a8249afcbd5beb9de197,
         type: 3}
-      propertyPath: SubCatalogue.Array.data[0]
+      propertyPath: InitialPresentSpriteSet
       value: 
       objectReference: {fileID: 11400000, guid: f75438bc0ba64764baa829960108075c,
         type: 2}
     - target: {fileID: 590354148432884721, guid: 411e38af01d5a8249afcbd5beb9de197,
         type: 3}
-      propertyPath: SubCatalogue.Array.data[1]
+      propertyPath: 'SubCatalogue.Array.data[0]'
+      value: 
+      objectReference: {fileID: 11400000, guid: f75438bc0ba64764baa829960108075c,
+        type: 2}
+    - target: {fileID: 590354148432884721, guid: 411e38af01d5a8249afcbd5beb9de197,
+        type: 3}
+      propertyPath: 'SubCatalogue.Array.data[1]'
       value: 
       objectReference: {fileID: 11400000, guid: f75438bc0ba64764baa829960108075c,
         type: 2}
@@ -77,6 +68,11 @@ PrefabInstance:
       propertyPath: canBreathAnywhere
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1681834966487690004, guid: 411e38af01d5a8249afcbd5beb9de197,
+        type: 3}
+      propertyPath: canBreatheAnywhere
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2057831978603074857, guid: 411e38af01d5a8249afcbd5beb9de197,
         type: 3}
       propertyPath: hitDamage
@@ -114,26 +110,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6240602369214284696, guid: 411e38af01d5a8249afcbd5beb9de197,
         type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6240602369214284696, guid: 411e38af01d5a8249afcbd5beb9de197,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6240602369214284696, guid: 411e38af01d5a8249afcbd5beb9de197,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6240602369214284696, guid: 411e38af01d5a8249afcbd5beb9de197,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6240602369214284696, guid: 411e38af01d5a8249afcbd5beb9de197,
-        type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
@@ -149,15 +125,47 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6269830135824793344, guid: 411e38af01d5a8249afcbd5beb9de197,
         type: 3}
+      propertyPath: _assetId
+      value: 3076123796
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269830135824793344, guid: 411e38af01d5a8249afcbd5beb9de197,
+        type: 3}
       propertyPath: m_AssetId
-      value: 
+      value: ed7a64706e0cc6048bec73dc630a5440
       objectReference: {fileID: 0}
     - target: {fileID: 7590973992759467133, guid: 411e38af01d5a8249afcbd5beb9de197,
         type: 3}
       propertyPath: mobName
       value: reanimated skeleton
       objectReference: {fileID: 0}
+    - target: {fileID: 8001555796081604719, guid: 411e38af01d5a8249afcbd5beb9de197,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8001555796081604719, guid: 411e38af01d5a8249afcbd5beb9de197,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8001555796081604719, guid: 411e38af01d5a8249afcbd5beb9de197,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9051970692443326331, guid: 411e38af01d5a8249afcbd5beb9de197,
+        type: 3}
+      propertyPath: foreverID
+      value: ed7a64706e0cc6048bec73dc630a5440
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6238238340896744860, guid: 411e38af01d5a8249afcbd5beb9de197,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5997360506871655458}
   m_SourcePrefab: {fileID: 100100000, guid: 411e38af01d5a8249afcbd5beb9de197, type: 3}
 --- !u!1 &5839488887052965560 stripped
 GameObject:
@@ -165,3 +173,19 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 547368275994833700}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &5997360506871655458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5839488887052965560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10470e342fd41de468f149e991721d5a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  despawnBody: 1
+  lootDrop:
+  - {fileID: 185268326757235430, guid: 0822e2543c887534d8535f437579b51a, type: 3}
+  - {fileID: 185268326757235430, guid: 0822e2543c887534d8535f437579b51a, type: 3}

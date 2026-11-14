@@ -5,16 +5,37 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 849394715480257580, guid: e826ed32e8c543143930483ce9bda088,
         type: 3}
+      propertyPath: _assetId
+      value: 1940638557
+      objectReference: {fileID: 0}
+    - target: {fileID: 849394715480257580, guid: e826ed32e8c543143930483ce9bda088,
+        type: 3}
       propertyPath: m_AssetId
-      value: 
+      value: 33771cbbcf1598f45ad8e603a9c0cedb
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288807134906498823, guid: e826ed32e8c543143930483ce9bda088,
+        type: 3}
+      propertyPath: parentID
+      value: e826ed32e8c543143930483ce9bda088
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288807134906498823, guid: e826ed32e8c543143930483ce9bda088,
+        type: 3}
+      propertyPath: foreverID
+      value: 33771cbbcf1598f45ad8e603a9c0cedb
       objectReference: {fileID: 0}
     - target: {fileID: 9039932664500970841, guid: e826ed32e8c543143930483ce9bda088,
         type: 3}
       propertyPath: m_Color.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9079753820824012692, guid: e826ed32e8c543143930483ce9bda088,
+        type: 3}
+      propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9079753820824012692, guid: e826ed32e8c543143930483ce9bda088,
@@ -30,31 +51,6 @@ PrefabInstance:
     - target: {fileID: 9079753820824012692, guid: e826ed32e8c543143930483ce9bda088,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9079753820824012692, guid: e826ed32e8c543143930483ce9bda088,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9079753820824012692, guid: e826ed32e8c543143930483ce9bda088,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9079753820824012692, guid: e826ed32e8c543143930483ce9bda088,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9079753820824012692, guid: e826ed32e8c543143930483ce9bda088,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9079753820824012692, guid: e826ed32e8c543143930483ce9bda088,
-        type: 3}
-      propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9079753820824012692, guid: e826ed32e8c543143930483ce9bda088,
@@ -78,4 +74,7 @@ PrefabInstance:
       value: SofaTealCorner
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e826ed32e8c543143930483ce9bda088, type: 3}

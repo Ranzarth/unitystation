@@ -5,17 +5,23 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 780986817926429300, guid: 10346266394bdb54ca023bf71f4cd128,
+        type: 3}
+      propertyPath: initialName
+      value: plasma medal
+      objectReference: {fileID: 0}
     - target: {fileID: 780986817926429300, guid: 10346266394bdb54ca023bf71f4cd128,
         type: 3}
       propertyPath: initialDescription
       value: An eccentric medal made of plasma.
       objectReference: {fileID: 0}
-    - target: {fileID: 780986817926429300, guid: 10346266394bdb54ca023bf71f4cd128,
+    - target: {fileID: 876099436125481058, guid: 10346266394bdb54ca023bf71f4cd128,
         type: 3}
-      propertyPath: initialName
-      value: plasma medal
+      propertyPath: m_RootOrder
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 876099436125481058, guid: 10346266394bdb54ca023bf71f4cd128,
         type: 3}
@@ -34,6 +40,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 876099436125481058, guid: 10346266394bdb54ca023bf71f4cd128,
         type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 876099436125481058, guid: 10346266394bdb54ca023bf71f4cd128,
+        type: 3}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
@@ -46,16 +57,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 876099436125481058, guid: 10346266394bdb54ca023bf71f4cd128,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 876099436125481058, guid: 10346266394bdb54ca023bf71f4cd128,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 876099436125481058, guid: 10346266394bdb54ca023bf71f4cd128,
         type: 3}
@@ -84,8 +85,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 986060116320561314, guid: 10346266394bdb54ca023bf71f4cd128,
         type: 3}
+      propertyPath: _assetId
+      value: 3225928494
+      objectReference: {fileID: 0}
+    - target: {fileID: 986060116320561314, guid: 10346266394bdb54ca023bf71f4cd128,
+        type: 3}
       propertyPath: m_AssetId
-      value: 
+      value: b5b82a5784598df4984e98d1b8239329
       objectReference: {fileID: 0}
     - target: {fileID: 1065928657088587338, guid: 10346266394bdb54ca023bf71f4cd128,
         type: 3}
@@ -93,6 +99,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: faf66907a89ddca429d50174c833d815,
         type: 3}
+    - target: {fileID: 6089354946516490619, guid: 10346266394bdb54ca023bf71f4cd128,
+        type: 3}
+      propertyPath: parentID
+      value: 10346266394bdb54ca023bf71f4cd128
+      objectReference: {fileID: 0}
+    - target: {fileID: 6089354946516490619, guid: 10346266394bdb54ca023bf71f4cd128,
+        type: 3}
+      propertyPath: foreverID
+      value: b5b82a5784598df4984e98d1b8239329
+      objectReference: {fileID: 0}
     - target: {fileID: 6448339774262161041, guid: 10346266394bdb54ca023bf71f4cd128,
         type: 3}
       propertyPath: PresentSpriteSet
@@ -100,4 +116,7 @@ PrefabInstance:
       objectReference: {fileID: 11400000, guid: df1f9c44deafcbb44a3f163abc860c5d,
         type: 2}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10346266394bdb54ca023bf71f4cd128, type: 3}

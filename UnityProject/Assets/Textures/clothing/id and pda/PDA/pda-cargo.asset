@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d1de2691495b304e9843ac3335b626d, type: 3}
   m_Name: pda-cargo
   m_EditorClassIdentifier: 
+  foreverID: 679b45f60b8fb944080e04bf7e281d22
   Variance:
   - Frames:
     - sprite: {fileID: 1291416935738524957, guid: b9549b182d9306340910698166548758,
@@ -28,5 +29,4 @@ MonoBehaviour:
     - sprite: {fileID: 21300000, guid: c3fd932f54dbc104c8aae0fb5e3f9eeb, type: 3}
       secondDelay: 0
   IsPalette: 0
-  setID: 1927
   DisplayName: 

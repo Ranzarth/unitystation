@@ -5,6 +5,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 87180933171416764, guid: 6e50bbcfbfcddd349a8159ee099033d0,
@@ -71,7 +72,7 @@ PrefabInstance:
     - target: {fileID: 168188376783432363, guid: 6e50bbcfbfcddd349a8159ee099033d0,
         type: 3}
       propertyPath: m_Name
-      value: Closet_BioHazard_Science
+      value: BiohazardGearClosetScience
       objectReference: {fileID: 0}
     - target: {fileID: 1037750719417952310, guid: 6e50bbcfbfcddd349a8159ee099033d0,
         type: 3}
@@ -91,6 +92,22 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 8be7fd887356bf74f85bad29b611e4c4,
         type: 3}
+    - target: {fileID: 3537746237166134323, guid: 6e50bbcfbfcddd349a8159ee099033d0,
+        type: 3}
+      propertyPath: initialContents
+      value: 
+      objectReference: {fileID: 11400000, guid: c8e6378d54c62634baaa5f6d7529d8f4,
+        type: 2}
+    - target: {fileID: 3829306896477476066, guid: 6e50bbcfbfcddd349a8159ee099033d0,
+        type: 3}
+      propertyPath: parentID
+      value: 6e50bbcfbfcddd349a8159ee099033d0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3829306896477476066, guid: 6e50bbcfbfcddd349a8159ee099033d0,
+        type: 3}
+      propertyPath: foreverID
+      value: 36d0ca2dc3d735640bed2665a1dd8a54
+      objectReference: {fileID: 0}
     - target: {fileID: 4613223890691620977, guid: 6e50bbcfbfcddd349a8159ee099033d0,
         type: 3}
       propertyPath: PresentSpriteSet
@@ -99,13 +116,13 @@ PrefabInstance:
         type: 2}
     - target: {fileID: 4613223890691620977, guid: 6e50bbcfbfcddd349a8159ee099033d0,
         type: 3}
-      propertyPath: SubCatalogue.Array.data[0]
+      propertyPath: 'SubCatalogue.Array.data[0]'
       value: 
       objectReference: {fileID: 11400000, guid: f3715ed0cf8002543b4a180532677dcd,
         type: 2}
     - target: {fileID: 4613223890691620977, guid: 6e50bbcfbfcddd349a8159ee099033d0,
         type: 3}
-      propertyPath: SubCatalogue.Array.data[1]
+      propertyPath: 'SubCatalogue.Array.data[1]'
       value: 
       objectReference: {fileID: 11400000, guid: 7ed34cff54fab164fbce624dd1876702,
         type: 2}
@@ -123,8 +140,16 @@ PrefabInstance:
         type: 2}
     - target: {fileID: 8613230744922365897, guid: 6e50bbcfbfcddd349a8159ee099033d0,
         type: 3}
+      propertyPath: _assetId
+      value: 840448336
+      objectReference: {fileID: 0}
+    - target: {fileID: 8613230744922365897, guid: 6e50bbcfbfcddd349a8159ee099033d0,
+        type: 3}
       propertyPath: m_AssetId
-      value: 
+      value: 36d0ca2dc3d735640bed2665a1dd8a54
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6e50bbcfbfcddd349a8159ee099033d0, type: 3}

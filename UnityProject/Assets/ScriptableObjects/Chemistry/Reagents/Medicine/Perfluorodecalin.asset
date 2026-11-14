@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1916b10721f72c927a14093e8210cb3f, type: 3}
   m_Name: Perfluorodecalin
   m_EditorClassIdentifier: 
+  foreverID: Perfluorodecalin
   displayName: Perfluorodecalin
   description: Extremely rapidly restores oxygen deprivation, but inhibits speech.
     May also heal small amounts of bruising and burns.
   color: {r: 1, g: 0.39215687, b: 0.39215687, a: 1}
   state: 1
   heatDensity: 5
-  indexInSingleton: 274
+  indexInSingleton: 315

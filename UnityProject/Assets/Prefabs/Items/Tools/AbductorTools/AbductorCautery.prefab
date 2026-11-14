@@ -5,6 +5,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 2121025136257718661, guid: c08b964edf24e5c42a6edf23e84fc920,
@@ -12,12 +13,27 @@ PrefabInstance:
       propertyPath: SpeedMultiplier
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 2877135830300945170, guid: c08b964edf24e5c42a6edf23e84fc920,
+        type: 3}
+      propertyPath: parentID
+      value: c08b964edf24e5c42a6edf23e84fc920
+      objectReference: {fileID: 0}
+    - target: {fileID: 2877135830300945170, guid: c08b964edf24e5c42a6edf23e84fc920,
+        type: 3}
+      propertyPath: foreverID
+      value: 82710eb24ada71045bbf8ebe6a93a43e
+      objectReference: {fileID: 0}
     - target: {fileID: 3031209628024954104, guid: c08b964edf24e5c42a6edf23e84fc920,
         type: 3}
       propertyPath: PresentSpriteSet
       value: 
       objectReference: {fileID: 11400000, guid: 2b26369b1d64378439b5f659671b7197,
         type: 2}
+    - target: {fileID: 5613325467342271699, guid: c08b964edf24e5c42a6edf23e84fc920,
+        type: 3}
+      propertyPath: BasePurity
+      value: 40
+      objectReference: {fileID: 0}
     - target: {fileID: 8771464627952584733, guid: c08b964edf24e5c42a6edf23e84fc920,
         type: 3}
       propertyPath: initialName
@@ -36,8 +52,13 @@ PrefabInstance:
         type: 3}
     - target: {fileID: 9134196932493138635, guid: c08b964edf24e5c42a6edf23e84fc920,
         type: 3}
+      propertyPath: _assetId
+      value: 1935632473
+      objectReference: {fileID: 0}
+    - target: {fileID: 9134196932493138635, guid: c08b964edf24e5c42a6edf23e84fc920,
+        type: 3}
       propertyPath: m_AssetId
-      value: 
+      value: 82710eb24ada71045bbf8ebe6a93a43e
       objectReference: {fileID: 0}
     - target: {fileID: 9170621931490974219, guid: c08b964edf24e5c42a6edf23e84fc920,
         type: 3}
@@ -67,17 +88,17 @@ PrefabInstance:
     - target: {fileID: 9170621931490974219, guid: c08b964edf24e5c42a6edf23e84fc920,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9170621931490974219, guid: c08b964edf24e5c42a6edf23e84fc920,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9170621931490974219, guid: c08b964edf24e5c42a6edf23e84fc920,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9170621931490974219, guid: c08b964edf24e5c42a6edf23e84fc920,
         type: 3}
@@ -100,4 +121,7 @@ PrefabInstance:
       value: AbductorCautery
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c08b964edf24e5c42a6edf23e84fc920, type: 3}
